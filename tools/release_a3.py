@@ -214,9 +214,9 @@ def verify():
     for job,_,tag in DESIGNS:
         dest=OUT/job
         report=json.loads((REPORTS/(tag+"-drc.json")).read_text())
-        require(all(not report[k] for k in ("violations","unconnected_items","schematic_parity")),tag+" DRC")
+        require(all(not report[k] for k in ("violations","unconnected_items","schematic_parity","ignored_checks")),tag+" DRC")
         erc=json.loads((REPORTS/(tag+"-erc.json")).read_text())
-        require(all(not s["violations"] for s in erc["sheets"]),tag+" ERC")
+        require(not erc["ignored_checks"] and all(not s["violations"] for s in erc["sheets"]),tag+" ERC")
         bom=read_csv(dest/"assembly"/(tag+"-JLC-BOM.csv"))
         cpl=read_csv(dest/"assembly"/(tag+"-JLC-CPL.csv"))
         expected={r:c for c,p in components.items() for r in p["jobs"].get(job,{}).get("designators",[])}

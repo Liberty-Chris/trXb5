@@ -45,10 +45,10 @@ def inspect(name, tag, bounds, preview):
             for layer in copper:
                 for obj in layers[layer].objects:
                     box = obj.bounding_box()
-                    if box and box[0][0] < 155 and box[1][0] > 45 and box[0][1] < -45 and box[1][1] > -155:
+                    if box and box[0][0] < 155 and box[1][0] > 45 and box[0][1] < -45 and box[1][1] > -135:
                         raise ValueError(f"Unexpected {layer} copper inside panel aperture: {box}")
             assert holes["PTH"] == {"1.500":1, "1.700":4}
-            result["clear_central_aperture_mm"] = [110,110]
+            result["clear_central_aperture_mm"] = [110,90]
             result["etched_loop"]={"segments":len(bars),"copper_width_mm":2.0,"feed_gap_center_to_center_mm":12.0}
         if name=="controller":
             assert holes["PTH"]["1.500"] == 9 and holes["PTH"]["1.700"] == 36

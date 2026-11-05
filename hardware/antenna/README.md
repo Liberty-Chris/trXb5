@@ -1,6 +1,8 @@
-# Rev A1 interchangeable panel
+# Interchangeable panel
 
-Open [Rev A2](RevA2/Panel_A2.kicad_pro) for the 150 mm panel with the 68 pF shunt trim population. [Fabrication and assembly](../../releases/RevA2/panel/ORDER.md)
+Open [Rev A3](RevA3/Panel_A3.kicad_pro) for the 150 mm panel with the factory-fitted series and shunt tuning banks. [Fabrication and assembly](../../releases/RevA3/panel/ORDER.md)
+
+## Historical Rev A1
 
 Open [Panel_A1.kicad_pro](RevA1/Panel_A1.kicad_pro) in KiCad 10. The [schematic](RevA1/Panel_A1.pdf) and [BOM](RevA1/BOM.csv) apply to one panel. Use the same panel for the disconnectable primary or any of the four optional ports.
 

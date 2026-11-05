@@ -1,6 +1,8 @@
-# Rev A1 controller
+# Controller
 
-Open [Rev A2](RevA2/Controller_A2.kicad_pro) for the routed four-layer controller. [Fabrication and assembly](../../releases/RevA2/controller/ORDER.md) · [Electrical review](../../docs/validation/REV_A2.md)
+Open [Rev A3](RevA3/Controller_A3.kicad_pro) for the routed four-layer controller. [Fabrication and assembly](../../releases/RevA3/controller/ORDER.md) · [Electrical review](../../docs/validation/REV_A3.md)
+
+## Historical Rev A1
 
 Open [Controller_A1.kicad_pro](RevA1/Controller_A1.kicad_pro) in KiCad 10. The [schematic PDF](RevA1/Controller_A1.pdf) has ten pages. The [review BOM](RevA1/BOM.csv) lists fit quantities and MPNs. The 160 × 112 mm, four-layer board is a placement study with 441 unrouted connections. Its bottom and inner layers are available for the return planes and controlled-impedance layout after electrical review.
 

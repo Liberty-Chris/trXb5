@@ -29,10 +29,10 @@
       "mpn": "BAS316,115",
       "part_url": "https://jlcpcb.com/partdetail/Nexperia-BAS316115/C109218",
       "placement": "SMT Assembly",
-      "query": "BAS316,115",
+      "query": "C109218",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:47.994044+00:00"
+      "verified_utc": "2026-11-05T22:19:31.121743+00:00"
     },
     "C110920": {
       "available": 61857,
@@ -56,10 +56,10 @@
       "mpn": "PMV16XNR",
       "part_url": "https://jlcpcb.com/partdetail/Nexperia-PMV16XNR/C110920",
       "placement": "SMT Assembly",
-      "query": "PMV16",
+      "query": "C110920",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:47.904320+00:00"
+      "verified_utc": "2026-11-05T22:19:33.305350+00:00"
     },
     "C131941": {
       "available": 70358,
@@ -83,10 +83,10 @@
       "mpn": "TPS22918DBVR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TPS22918DBVR/C131941",
       "placement": "SMT Assembly",
-      "query": "TPS22918DBVR",
+      "query": "C131941",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:55.614259+00:00"
+      "verified_utc": "2026-11-05T22:19:30.937396+00:00"
     },
     "C137327": {
       "available": 30195,
@@ -110,10 +110,10 @@
       "mpn": "RC1206FR-072R2L",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC1206FR072R2L/C137327",
       "placement": "SMT Assembly",
-      "query": "RC1206FR-072R2L",
+      "query": "C137327",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:49.491203+00:00"
+      "verified_utc": "2026-11-05T22:19:32.736970+00:00"
     },
     "C1526287": {
       "available": 3700,
@@ -137,17 +137,17 @@
       "mpn": "PN5180A0HN/C3E",
       "part_url": "https://jlcpcb.com/partdetail/NXPSemicon-PN5180A0HNC3E/C1526287",
       "placement": "SMT Assembly",
-      "query": "PN5180A0HN",
+      "query": "C1526287",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:47.549200+00:00"
+      "verified_utc": "2026-11-05T22:19:32.929689+00:00"
     },
     "C158012": {
-      "available": 594042,
+      "available": 593989,
       "cad_revision": "b47eede057d049478edfdeacc5b9a4a3",
-      "can_presale": 594042,
+      "can_presale": 593989,
       "catalog_package": "Plugin,P=2.5mm",
-      "catalog_stock": 602540,
+      "catalog_stock": 602524,
       "jobs": {
         "controller": {
           "designators": [
@@ -164,10 +164,10 @@
       "mpn": "B2B-XH-A(LF)(SN)",
       "part_url": "https://jlcpcb.com/partdetail/JST-B2B_XH_A_LF_SN/C158012",
       "placement": "Wave Soldering",
-      "query": "B2B-XH-A(LF)(SN)",
+      "query": "C158012",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:48.061045+00:00"
+      "verified_utc": "2026-11-05T22:19:34.671721+00:00"
     },
     "C163383": {
       "available": 4753,
@@ -192,10 +192,10 @@
       "mpn": "RC1206FR-0724R9L",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC1206FR0724R9L/C163383",
       "placement": "SMT Assembly",
-      "query": "RC1206FR-0724R9L",
+      "query": "C163383",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T22:00:10.769608+00:00"
+      "verified_utc": "2026-11-05T22:19:34.738477+00:00"
     },
     "C168673": {
       "available": 7715,
@@ -219,10 +219,10 @@
       "mpn": "68000-102HLF",
       "part_url": "https://jlcpcb.com/partdetail/AmphenolICC-68000102HLF/C168673",
       "placement": "Wave Soldering",
-      "query": "68000-102HLF",
+      "query": "C168673",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:46.672039+00:00"
+      "verified_utc": "2026-11-05T22:19:34.974737+00:00"
     },
     "C168677": {
       "available": 12719,
@@ -246,10 +246,10 @@
       "mpn": "68000-103HLF",
       "part_url": "https://jlcpcb.com/partdetail/AmphenolICC-68000103HLF/C168677",
       "placement": "Wave Soldering",
-      "query": "68000-103HLF",
+      "query": "C168677",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:46.631041+00:00"
+      "verified_utc": "2026-11-05T22:19:35.548644+00:00"
     },
     "C17313": {
       "available": 111612,
@@ -273,10 +273,10 @@
       "mpn": "MF-MSMF050-2",
       "part_url": "https://jlcpcb.com/partdetail/BOURNS-MF_MSMF0502/C17313",
       "placement": "SMT Assembly",
-      "query": "MF-MSMF050-2",
+      "query": "C17313",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:54.929060+00:00"
+      "verified_utc": "2026-11-05T22:19:36.116453+00:00"
     },
     "C17505": {
       "available": 3696,
@@ -300,10 +300,10 @@
       "mpn": "0805W8F1870T5E",
       "part_url": "https://jlcpcb.com/partdetail/18193-0805W8F1870T5E/C17505",
       "placement": "SMT Assembly",
-      "query": "0805W8F1870",
+      "query": "C17505",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:50:43.885575+00:00"
+      "verified_utc": "2026-11-05T22:19:35.941512+00:00"
     },
     "C17692434": {
       "available": 17,
@@ -327,10 +327,10 @@
       "mpn": "VO617A-4",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-VO617A4/C17692434",
       "placement": "Wave Soldering",
-      "query": "VO617A",
+      "query": "C17692434",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:47.989209+00:00"
+      "verified_utc": "2026-11-05T22:19:36.449520+00:00"
     },
     "C179375": {
       "available": 1045,
@@ -354,10 +354,10 @@
       "mpn": "BZT52H-B5V1,115",
       "part_url": "https://jlcpcb.com/partdetail/Nexperia-BZT52H_B5V1115/C179375",
       "placement": "SMT Assembly",
-      "query": "BZT52H-B5V1",
+      "query": "C179375",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:55:24.522890+00:00"
+      "verified_utc": "2026-11-05T22:19:36.853983+00:00"
     },
     "C19166144": {
       "available": 93,
@@ -381,10 +381,10 @@
       "mpn": "G6K-2F-RF DC5",
       "part_url": "https://jlcpcb.com/partdetail/OmronElectronics-G6K_2F_RFDC5/C19166144",
       "placement": "SMT Assembly",
-      "query": "G6K-2F-RF",
+      "query": "C19166144",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:58.578377+00:00"
+      "verified_utc": "2026-11-05T22:19:37.038483+00:00"
     },
     "C19653": {
       "available": 345,
@@ -408,10 +408,10 @@
       "mpn": "TPS3808G01DBVR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TPS3808G01DBVR/C19653",
       "placement": "SMT Assembly",
-      "query": "TPS3808G01DBVR",
+      "query": "C19653",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:56.951533+00:00"
+      "verified_utc": "2026-11-05T22:19:37.333829+00:00"
     },
     "C20345936": {
       "available": 38,
@@ -435,10 +435,10 @@
       "mpn": "TLV9024QDYYRQ1",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV9024QDYYRQ1/C20345936",
       "placement": "SMT Assembly",
-      "query": "TLV9024Q",
+      "query": "C20345936",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:53:12.718095+00:00"
+      "verified_utc": "2026-11-05T22:19:37.782577+00:00"
     },
     "C20417017": {
       "available": 183,
@@ -463,10 +463,10 @@
       "mpn": "0805LS-471XJLC",
       "part_url": "https://jlcpcb.com/partdetail/Coilcraft-0805LS471XJLC/C20417017",
       "placement": "SMT Assembly",
-      "query": "0805LS-471",
+      "query": "C20417017",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:50:43.475204+00:00"
+      "verified_utc": "2026-11-05T22:19:37.912499+00:00"
     },
     "C2058649": {
       "available": 95,
@@ -490,10 +490,10 @@
       "mpn": "THS3491IDDAT",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-THS3491IDDAT/C2058649",
       "placement": "SMT Assembly",
-      "query": "THS3491",
+      "query": "C2058649",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:57.537314+00:00"
+      "verified_utc": "2026-11-05T22:19:38.208633+00:00"
     },
     "C2090651": {
       "available": 1549,
@@ -517,10 +517,10 @@
       "mpn": "CRCW060397K6FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060397K6FKEA/C2090651",
       "placement": "SMT Assembly",
-      "query": "CRCW060397K6FKEA",
+      "query": "C2090651",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:53.910468+00:00"
+      "verified_utc": "2026-11-05T22:19:38.782036+00:00"
     },
     "C2092005": {
       "available": 6897,
@@ -544,10 +544,10 @@
       "mpn": "CRCW0805649RFKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805649RFKEA/C2092005",
       "placement": "SMT Assembly",
-      "query": "CRCW0805649RFKEA",
+      "query": "C2092005",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:53.176528+00:00"
+      "verified_utc": "2026-11-05T22:19:38.894486+00:00"
     },
     "C2153173": {
       "available": 3350,
@@ -575,10 +575,10 @@
       "mpn": "G6KU-2F-Y-TR DC5",
       "part_url": "https://jlcpcb.com/partdetail/OmronElectronics-G6KU_2F_Y_TRDC5/C2153173",
       "placement": "SMT Assembly",
-      "query": "G6KU",
+      "query": "C2153173",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:56.691066+00:00"
+      "verified_utc": "2026-11-05T22:19:39.027474+00:00"
     },
     "C2167577": {
       "available": 3210,
@@ -604,10 +604,10 @@
       "mpn": "C0805C225K4RACTU",
       "part_url": "https://jlcpcb.com/partdetail/KEMET-C0805C225K4RACTU/C2167577",
       "placement": "SMT Assembly",
-      "query": "C0805C225K4RACTU",
+      "query": "C2167577",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:50.673052+00:00"
+      "verified_utc": "2026-11-05T22:19:39.789516+00:00"
     },
     "C2167927": {
       "available": 169,
@@ -632,10 +632,10 @@
       "mpn": "C1206C103J5GACTU",
       "part_url": "https://jlcpcb.com/partdetail/KEMET-C1206C103J5GACTU/C2167927",
       "placement": "SMT Assembly",
-      "query": "C1206C103J5GACTU",
+      "query": "C2167927",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:50.721003+00:00"
+      "verified_utc": "2026-11-05T22:19:39.833489+00:00"
     },
     "C2171372": {
       "available": 1551,
@@ -661,10 +661,10 @@
       "mpn": "C0603C474K4RACTU",
       "part_url": "https://jlcpcb.com/partdetail/KEMET-C0603C474K4RACTU/C2171372",
       "placement": "SMT Assembly",
-      "query": "C0603C474K4RACTU",
+      "query": "C2171372",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:50.417878+00:00"
+      "verified_utc": "2026-11-05T22:19:40.104764+00:00"
     },
     "C2181873": {
       "available": 5665,
@@ -691,10 +691,10 @@
       "mpn": "C0603C102J5GACTU",
       "part_url": "https://jlcpcb.com/partdetail/KEMET-C0603C102J5GACTU/C2181873",
       "placement": "SMT Assembly",
-      "query": "C0603C102J5GACTU",
+      "query": "C2181873",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:50.230726+00:00"
+      "verified_utc": "2026-11-05T22:19:40.724731+00:00"
     },
     "C242145": {
       "available": 122,
@@ -718,10 +718,10 @@
       "mpn": "EEUFR1C471",
       "part_url": "https://jlcpcb.com/partdetail/PANASONIC-EEUFR1C471/C242145",
       "placement": "Wave Soldering",
-      "query": "EEUFR1C471",
+      "query": "C242145",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:50.568186+00:00"
+      "verified_utc": "2026-11-05T22:19:40.770492+00:00"
     },
     "C2683432": {
       "available": 170,
@@ -746,10 +746,10 @@
       "mpn": "ADT1-1+",
       "part_url": "https://jlcpcb.com/partdetail/MiniCircuits-ADT1_1/C2683432",
       "placement": "SMT Assembly",
-      "query": "ADT1-1+",
+      "query": "C2683432",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:47.928916+00:00"
+      "verified_utc": "2026-11-05T22:19:41.040639+00:00"
     },
     "C2869909": {
       "available": 382,
@@ -773,10 +773,10 @@
       "mpn": "SN74HCS238PWR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HCS238PWR/C2869909",
       "placement": "SMT Assembly",
-      "query": "SN74HCS238PWR",
+      "query": "C2869909",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:55.139132+00:00"
+      "verified_utc": "2026-11-05T22:19:41.702907+00:00"
     },
     "C2878538": {
       "available": 3206,
@@ -801,10 +801,10 @@
       "mpn": "ISO7760FDWR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-ISO7760FDWR/C2878538",
       "placement": "SMT Assembly",
-      "query": "ISO7760FDWR",
+      "query": "C2878538",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:54.326005+00:00"
+      "verified_utc": "2026-11-05T22:19:41.622000+00:00"
     },
     "C29777121": {
       "available": 399,
@@ -828,10 +828,10 @@
       "mpn": "TLV9031DBVR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV9031DBVR/C29777121",
       "placement": "SMT Assembly",
-      "query": "TLV9031DBVR",
+      "query": "C29777121",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:56.724064+00:00"
+      "verified_utc": "2026-11-05T22:19:41.946630+00:00"
     },
     "C3174425": {
       "available": 1203,
@@ -870,10 +870,10 @@
       "mpn": "132134",
       "part_url": "https://jlcpcb.com/partdetail/AmphenolICC-132134/C3174425",
       "placement": "Wave Soldering",
-      "query": "132134",
+      "query": "C3174425",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:57.934798+00:00"
+      "verified_utc": "2026-11-05T22:19:42.549421+00:00"
     },
     "C326652": {
       "available": 1914,
@@ -897,10 +897,10 @@
       "mpn": "CC1206JRNPOBBN680",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN680/C326652",
       "placement": "SMT Assembly",
-      "query": "68pF 500V",
+      "query": "C326652",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:52:10.464196+00:00"
+      "verified_utc": "2026-11-05T22:19:42.730703+00:00"
     },
     "C326958": {
       "available": 1260,
@@ -924,10 +924,10 @@
       "mpn": "CC1206JRNPOBBN390",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN390/C326958",
       "placement": "SMT Assembly",
-      "query": "39pF 500V",
+      "query": "C326958",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:55:25.167470+00:00"
+      "verified_utc": "2026-11-05T22:19:42.880496+00:00"
     },
     "C3273268": {
       "available": 68,
@@ -952,10 +952,10 @@
       "mpn": "JZ400HV",
       "part_url": "https://jlcpcb.com/partdetail/Knowles-JZ400HV/C3273268",
       "placement": "SMT Assembly",
-      "query": "Trimmers, Variable Capacitors",
+      "query": "C3273268",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:50:43.407606+00:00"
+      "verified_utc": "2026-11-05T22:19:43.546921+00:00"
     },
     "C3903622": {
       "available": 1407,
@@ -980,10 +980,10 @@
       "mpn": "GRM1885C1H301GA01D",
       "part_url": "https://jlcpcb.com/partdetail/4472154-GRM1885C1H301GA01D/C3903622",
       "placement": "SMT Assembly",
-      "query": "GRM1885C1H301",
+      "query": "C3903622",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:48.453420+00:00"
+      "verified_utc": "2026-11-05T22:19:43.799215+00:00"
     },
     "C39159": {
       "available": 71126,
@@ -1012,10 +1012,10 @@
       "mpn": "DRV8837DSGR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-DRV8837DSGR/C39159",
       "placement": "SMT Assembly",
-      "query": "DRV8837DSGR",
+      "query": "C39159",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:53.918980+00:00"
+      "verified_utc": "2026-11-05T22:19:43.791602+00:00"
     },
     "C404027": {
       "available": 93951,
@@ -1039,10 +1039,10 @@
       "mpn": "TLV75533PDBVR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV75533PDBVR/C404027",
       "placement": "SMT Assembly",
-      "query": "TLV75533PDBVR",
+      "query": "C404027",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:55.461916+00:00"
+      "verified_utc": "2026-11-05T22:19:44.604572+00:00"
     },
     "C407950": {
       "available": 775,
@@ -1066,10 +1066,10 @@
       "mpn": "EEUFR1H470",
       "part_url": "https://jlcpcb.com/partdetail/PANASONIC-EEUFR1H470/C407950",
       "placement": "Wave Soldering",
-      "query": "EEUFR1H470",
+      "query": "C407950",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:57.827138+00:00"
+      "verified_utc": "2026-11-05T22:19:44.707082+00:00"
     },
     "C41430990": {
       "available": 4795,
@@ -1094,10 +1094,10 @@
       "mpn": "C1206C104K5RACTU",
       "part_url": "https://jlcpcb.com/partdetail/KEMET-C1206C104K5RACTU/C41430990",
       "placement": "SMT Assembly",
-      "query": "C1206C104K5RACTU",
+      "query": "C41430990",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:50.761230+00:00"
+      "verified_utc": "2026-11-05T22:19:44.723655+00:00"
     },
     "C426766": {
       "available": 204079,
@@ -1126,10 +1126,10 @@
       "mpn": "BAS70H,115",
       "part_url": "https://jlcpcb.com/partdetail/Nexperia-BAS70H115/C426766",
       "placement": "SMT Assembly",
-      "query": "BAS70H,115",
+      "query": "C426766",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:48.018523+00:00"
+      "verified_utc": "2026-11-05T22:19:45.505637+00:00"
     },
     "C43698": {
       "available": 26037,
@@ -1155,15 +1155,15 @@
       "mpn": "TPS3808G33DBVR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TPS3808G33DBVR/C43698",
       "placement": "SMT Assembly",
-      "query": "TPS3808G33DBVR",
+      "query": "C43698",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:55.862319+00:00"
+      "verified_utc": "2026-11-05T22:19:45.988220+00:00"
     },
     "C47460": {
-      "available": 30611,
+      "available": 30593,
       "cad_revision": "5a29e09af5544e89b09ce7490df13dc0",
-      "can_presale": 30611,
+      "can_presale": 30593,
       "catalog_package": "SMA(DO-214AC)",
       "catalog_stock": 30765,
       "jobs": {
@@ -1184,17 +1184,17 @@
       "mpn": "SS14-E3/61T",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-SS14_E361T/C47460",
       "placement": "SMT Assembly",
-      "query": "SS14",
+      "query": "C47460",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:58.529218+00:00"
+      "verified_utc": "2026-11-05T22:19:45.724006+00:00"
     },
     "C492407": {
-      "available": 212639,
+      "available": 212629,
       "cad_revision": "7f4bd6ab57c544e3bc2836b74e5339a2",
-      "can_presale": 212639,
+      "can_presale": 212629,
       "catalog_package": "Plugin,P=2.54mm",
-      "catalog_stock": 219275,
+      "catalog_stock": 219265,
       "jobs": {
         "controller": {
           "designators": [
@@ -1213,17 +1213,17 @@
       "mpn": "PZ254V-11-08P",
       "part_url": "https://jlcpcb.com/partdetail/XFCN-PZ254V_1108P/C492407",
       "placement": "Wave Soldering",
-      "query": "PZ254V-11-08P",
+      "query": "C492407",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:50:45.024376+00:00"
+      "verified_utc": "2026-11-05T22:19:46.415897+00:00"
     },
     "C50254": {
-      "available": 355269,
+      "available": 354861,
       "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
-      "can_presale": 355269,
+      "can_presale": 354861,
       "catalog_package": "1206",
-      "catalog_stock": 426216,
+      "catalog_stock": 425808,
       "jobs": {
         "controller": {
           "designators": [
@@ -1241,10 +1241,10 @@
       "mpn": "CL31B225KBHNNNE",
       "part_url": "https://jlcpcb.com/partdetail/51263-CL31B225KBHNNNE/C50254",
       "placement": "SMT Assembly",
-      "query": "CL31B225",
+      "query": "C50254",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:50:45.446775+00:00"
+      "verified_utc": "2026-11-05T22:19:46.654045+00:00"
     },
     "C513629": {
       "available": 2129,
@@ -1270,10 +1270,10 @@
       "mpn": "RC2512FK-0733RL",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC2512FK0733RL/C513629",
       "placement": "SMT Assembly",
-      "query": "RC2512FK-0733RL",
+      "query": "C513629",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:52:09.710683+00:00"
+      "verified_utc": "2026-11-05T22:19:47.027936+00:00"
     },
     "C5216457": {
       "available": 290,
@@ -1297,10 +1297,10 @@
       "mpn": "ISO7762FDWR",
       "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-ISO7762FDWR/C5216457",
       "placement": "SMT Assembly",
-      "query": "ISO7762FDWR",
+      "query": "C5216457",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:54.530297+00:00"
+      "verified_utc": "2026-11-05T22:19:47.345293+00:00"
     },
     "C527307": {
       "available": 2943,
@@ -1324,10 +1324,10 @@
       "mpn": "CC1206JRNPOBBN221",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN221/C527307",
       "placement": "SMT Assembly",
-      "query": "CC1206JRNPOBBN221",
+      "query": "C527307",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:55:24.566434+00:00"
+      "verified_utc": "2026-11-05T22:19:47.579507+00:00"
     },
     "C527310": {
       "available": 3921,
@@ -1351,10 +1351,10 @@
       "mpn": "CC1206JRNPOBBN821",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN821/C527310",
       "placement": "SMT Assembly",
-      "query": "820pF 500V",
+      "query": "C527310",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:52:09.274821+00:00"
+      "verified_utc": "2026-11-05T22:19:48.039536+00:00"
     },
     "C710893": {
       "available": 6415,
@@ -1378,10 +1378,10 @@
       "mpn": "GRM1885C1H161JA01D",
       "part_url": "https://jlcpcb.com/partdetail/749165-GRM1885C1H161JA01D/C710893",
       "placement": "SMT Assembly",
-      "query": "GRM1885C1H161",
+      "query": "C710893",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:48.414181+00:00"
+      "verified_utc": "2026-11-05T22:19:48.320983+00:00"
     },
     "C71651": {
       "available": 30141,
@@ -1406,10 +1406,10 @@
       "mpn": "GRM1885C1H150JA01D",
       "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM1885C1H150JA01D/C71651",
       "placement": "SMT Assembly",
-      "query": "GRM1885C1H150",
+      "query": "C71651",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:48.713336+00:00"
+      "verified_utc": "2026-11-05T22:19:48.473510+00:00"
     },
     "C77055": {
       "available": 151791,
@@ -1459,10 +1459,10 @@
       "mpn": "GRM188R71H104KA93D",
       "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71H104KA93D/C77055",
       "placement": "SMT Assembly",
-      "query": "GRM188R71H104",
+      "query": "C77055",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:46:48.409181+00:00"
+      "verified_utc": "2026-11-05T22:19:49.095536+00:00"
     },
     "C844253": {
       "available": 83,
@@ -1491,10 +1491,10 @@
       "mpn": "CRCW251249R9FKEG",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW251249R9FKEG/C844253",
       "placement": "SMT Assembly",
-      "query": "CRCW251249R9FKEG",
+      "query": "C844253",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:54.871063+00:00"
+      "verified_utc": "2026-11-05T22:19:49.276841+00:00"
     },
     "C844733": {
       "available": 8441,
@@ -1518,10 +1518,10 @@
       "mpn": "CRCW0603110KFKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603110KFKEA/C844733",
       "placement": "SMT Assembly",
-      "query": "CRCW0603110KFKEA",
+      "query": "C844733",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.510610+00:00"
+      "verified_utc": "2026-11-05T22:19:49.451020+00:00"
     },
     "C844737": {
       "available": 84768,
@@ -1545,10 +1545,10 @@
       "mpn": "CRCW060312K0FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060312K0FKEA/C844737",
       "placement": "SMT Assembly",
-      "query": "CRCW060312K0FKEA",
+      "query": "C844737",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.542355+00:00"
+      "verified_utc": "2026-11-05T22:19:50.003412+00:00"
     },
     "C844757": {
       "available": 249501,
@@ -1572,10 +1572,10 @@
       "mpn": "CRCW0603220RFKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603220RFKEA/C844757",
       "placement": "SMT Assembly",
-      "query": "CRCW0603220RFKEA",
+      "query": "C844757",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.918021+00:00"
+      "verified_utc": "2026-11-05T22:19:50.208018+00:00"
     },
     "C844770": {
       "available": 29559,
@@ -1599,10 +1599,10 @@
       "mpn": "CRCW06032K70FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06032K70FKEA/C844770",
       "placement": "SMT Assembly",
-      "query": "CRCW06032K70FKEA",
+      "query": "C844770",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:52.018055+00:00"
+      "verified_utc": "2026-11-05T22:19:50.360209+00:00"
     },
     "C844775": {
       "available": 59057,
@@ -1627,10 +1627,10 @@
       "mpn": "CRCW060330K1FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060330K1FKEA/C844775",
       "placement": "SMT Assembly",
-      "query": "CRCW060330K1FKEA",
+      "query": "C844775",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:52.356054+00:00"
+      "verified_utc": "2026-11-05T22:19:50.898024+00:00"
     },
     "C844885": {
       "available": 4102,
@@ -1654,10 +1654,10 @@
       "mpn": "CRCW251210R0FKEG",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW251210R0FKEG/C844885",
       "placement": "SMT Assembly",
-      "query": "CRCW251210R0FKEG",
+      "query": "C844885",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:53.536020+00:00"
+      "verified_utc": "2026-11-05T22:19:51.194867+00:00"
     },
     "C844915": {
       "available": 478992,
@@ -1682,10 +1682,10 @@
       "mpn": "CRCW06030000Z0EA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06030000Z0EA/C844915",
       "placement": "SMT Assembly",
-      "query": "CRCW06030000Z0EA",
+      "query": "C844915",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.641441+00:00"
+      "verified_utc": "2026-11-05T22:19:51.257128+00:00"
     },
     "C844916": {
       "available": 1021862,
@@ -1713,10 +1713,10 @@
       "mpn": "CRCW0603100KFKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603100KFKEA/C844916",
       "placement": "SMT Assembly",
-      "query": "CRCW0603100KFKEA",
+      "query": "C844916",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.284333+00:00"
+      "verified_utc": "2026-11-05T22:19:51.815412+00:00"
     },
     "C844918": {
       "available": 1004641,
@@ -1759,10 +1759,10 @@
       "mpn": "CRCW060310K0FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918",
       "placement": "SMT Assembly",
-      "query": "CRCW060310K0FKEA",
+      "query": "C844918",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:53.048064+00:00"
+      "verified_utc": "2026-11-05T22:19:52.103694+00:00"
     },
     "C844920": {
       "available": 1095340,
@@ -1787,10 +1787,10 @@
       "mpn": "CRCW06031K00FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06031K00FKEA/C844920",
       "placement": "SMT Assembly",
-      "query": "CRCW06031K00FKEA",
+      "query": "C844920",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.628558+00:00"
+      "verified_utc": "2026-11-05T22:19:52.368609+00:00"
     },
     "C844925": {
       "available": 87143,
@@ -1814,10 +1814,10 @@
       "mpn": "CRCW06032K20FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06032K20FKEA/C844925",
       "placement": "SMT Assembly",
-      "query": "CRCW06032K20FKEA",
+      "query": "C844925",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:51.909560+00:00"
+      "verified_utc": "2026-11-05T22:19:52.754522+00:00"
     },
     "C844926": {
       "available": 88862,
@@ -1841,10 +1841,10 @@
       "mpn": "CRCW0603330RFKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603330RFKEA/C844926",
       "placement": "SMT Assembly",
-      "query": "CRCW0603330RFKEA",
+      "query": "C844926",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:52.316230+00:00"
+      "verified_utc": "2026-11-05T22:19:53.057779+00:00"
     },
     "C844929": {
       "available": 89253,
@@ -1876,10 +1876,10 @@
       "mpn": "CRCW060347K0FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060347K0FKEA/C844929",
       "placement": "SMT Assembly",
-      "query": "CRCW060347K0FKEA",
+      "query": "C844929",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:52.328052+00:00"
+      "verified_utc": "2026-11-05T22:19:53.297523+00:00"
     },
     "C844931": {
       "available": 1094662,
@@ -1905,17 +1905,17 @@
       "mpn": "CRCW06034K70FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06034K70FKEA/C844931",
       "placement": "SMT Assembly",
-      "query": "CRCW06034K70FKEA",
+      "query": "C844931",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:52.609239+00:00"
+      "verified_utc": "2026-11-05T22:19:53.709520+00:00"
     },
     "C844936": {
       "available": 63301,
       "cad_revision": "f927d48016d24d67a672eae9a4665e8f",
       "can_presale": 63301,
       "catalog_package": "0805",
-      "catalog_stock": 75985,
+      "catalog_stock": 75965,
       "jobs": {
         "controller": {
           "designators": [
@@ -1932,10 +1932,10 @@
       "mpn": "CRCW0805100RFKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805100RFKEA/C844936",
       "placement": "SMT Assembly",
-      "query": "CRCW0805100RFKEA",
+      "query": "C844936",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:52.707055+00:00"
+      "verified_utc": "2026-11-05T22:19:54.183352+00:00"
     },
     "C844942": {
       "available": 96001,
@@ -1960,10 +1960,10 @@
       "mpn": "CRCW12061K00FKEA",
       "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW12061K00FKEA/C844942",
       "placement": "SMT Assembly",
-      "query": "CRCW12061K00FKEA",
+      "query": "C844942",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:53.271231+00:00"
+      "verified_utc": "2026-11-05T22:19:54.201523+00:00"
     },
     "C85981": {
       "available": 7292,
@@ -1988,15 +1988,15 @@
       "mpn": "GRM1885C1H680JA01D",
       "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM1885C1H680JA01D/C85981",
       "placement": "SMT Assembly",
-      "query": "GRM1885C1H680JA01D",
+      "query": "C85981",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T22:00:10.736863+00:00"
+      "verified_utc": "2026-11-05T22:19:54.744671+00:00"
     },
     "C86038": {
-      "available": 17817,
+      "available": 17777,
       "cad_revision": "5692e0f7bea74445b8400c3de2eeb4d1",
-      "can_presale": 17817,
+      "can_presale": 17777,
       "catalog_package": "0805",
       "catalog_stock": 26347,
       "jobs": {
@@ -2015,10 +2015,10 @@
       "mpn": "GRM21BR71A106KE51L",
       "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71A106KE51L/C86038",
       "placement": "SMT Assembly",
-      "query": "GRM21BR71A106KE51L",
+      "query": "C86038",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:45:55.552569+00:00"
+      "verified_utc": "2026-11-05T22:19:55.110054+00:00"
     },
     "C861538": {
       "available": 16234,
@@ -2042,10 +2042,10 @@
       "mpn": "RT0603BRD076K81L",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD076K81L/C861538",
       "placement": "SMT Assembly",
-      "query": "6.81kΩ 0603",
+      "query": "C861538",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T22:00:44.060235+00:00"
+      "verified_utc": "2026-11-05T22:19:55.102051+00:00"
     },
     "C878191": {
       "available": 3494,
@@ -2069,10 +2069,10 @@
       "mpn": "RC2512FK-076R8L",
       "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC2512FK076R8L/C878191",
       "placement": "SMT Assembly",
-      "query": "RC2512FK-076R8L",
+      "query": "C878191",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:50:43.860000+00:00"
+      "verified_utc": "2026-11-05T22:19:55.698032+00:00"
     },
     "C90919": {
       "available": 1358,
@@ -2096,10 +2096,10 @@
       "mpn": "7M27100009",
       "part_url": "https://jlcpcb.com/partdetail/TXCCorp-7M27100009/C90919",
       "placement": "SMT Assembly",
-      "query": "27.12MHz 10pF",
+      "query": "C90919",
       "route": "JLCPCB public stock",
       "service": "Economic and Standard",
-      "verified_utc": "2026-11-05T21:53:13.376091+00:00"
+      "verified_utc": "2026-11-05T22:19:56.108812+00:00"
     }
   },
   "endpoint": "https://jlcpcb.com/api/overseas-pcb-order/v1/shoppingCart/smtGood/selectSmtComponentList/v2"
