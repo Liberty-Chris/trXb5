@@ -17,7 +17,7 @@ These are independently documented product family findings. They have not yet be
 
 Preserve factory display configuration. Compatible FMSC projects distinguish writing image data from replacing display driver configuration. Do not copy configuration or waveform recipes from a different screen simply because the controller family appears similar.
 
-The older Liberty-Chris/Balto src/writer.py raises NotImplementedError for real writes; src/pixel_converter.py creates a placeholder payload; src/transport.py simulates PN532 endpoints. These files do not contain the later completed writer Chris reports. The installed vendor application and our later research remain relevant leads; inspection of an installer bootstrapper alone cannot establish the application's NFC protocol.
+The owner pointed to Balto's original vendor files. Static extraction of the NFC application recovered Windows PC/SC transport symbols, LZO compression and literal SELECT, AUTH and GET INFO commands. A separate 1.2.6 archive contains a serial application. Earlier Balto Python code simulated writes. The working in-house writer and a trace from the physical label remain outstanding. [Vendor payload hashes and offsets](VENDOR-PAYLOAD.md) · [Recovered team artifacts](RECOVERY.md)
 
 solar2ain/ink-nfc-fmsc-by-pn532 provides a second FMSC implementation reference with PN532 compatible UART readers. Its tested boards differ from the Santek label. Treat it as comparative evidence, not proof of Santek compatibility. Its documentation warns that some operations overwrite factory display configuration.
 

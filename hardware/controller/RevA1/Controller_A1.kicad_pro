@@ -1,0 +1,75 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_through_hole_diameter": 0.2
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    }
+  },
+  "boards": [],
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Controller_A1.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [],
+    "meta": {
+      "version": 0
+    }
+  },
+  "pcbnew": {
+    "page_layout_descr_file": ""
+  },
+  "sheets": [
+    [
+      "f65cd186-c209-5268-95a4-4ee7b1f06304",
+      "Controller - direct path development"
+    ],
+    [
+      "9aa04ca5-12ad-5711-8b1b-1260ab5a3aef",
+      "Reader power and host isolation"
+    ],
+    [
+      "bf99463a-e78f-517e-b527-b0527d3b3862",
+      "PN5180 front end"
+    ],
+    [
+      "59c9bca5-2b0b-5552-8f6c-b30d4b7b6989",
+      "RF match and receiver pickup"
+    ],
+    [
+      "9b801127-5fe1-5380-a623-07feab31ca16",
+      "Linear PA development path"
+    ],
+    [
+      "4f904fad-5aec-5f21-b66c-3afa86ae1253",
+      "Coil address and hardware permissives"
+    ],
+    [
+      "a956a329-b6b3-5e28-ba30-0ddd119d27a2",
+      "Primary and external ports 1-2"
+    ],
+    [
+      "15add677-e5c1-5b47-ae3b-9c13f05d072b",
+      "External ports 3-4"
+    ],
+    [
+      "2ca45316-6431-5449-a713-64ca961f14f9",
+      "Selector host interface"
+    ],
+    [
+      "8f0c488e-72f1-596a-89cf-bcde4a54832b",
+      "Unpowered reader isolation"
+    ]
+  ],
+  "text_variables": {}
+}

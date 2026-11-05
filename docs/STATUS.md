@@ -1,20 +1,15 @@
 # Current status
 
-Baseline date: November 4, 2026.
+**November 5, 2026. Rev A1 is ready for electrical review.** The next physical milestone is an identified 2.9-inch label on a direct reader, with its factory configuration preserved. Start with the [commissioning sequence and design limits](validation/REV_A1.md).
 
-| Area | State | Evidence or next action |
-| :--- | :--- | :--- |
-| Requirements | Initial baseline recorded | Confirm label orientation, dwell time and supply constraints |
-| Label identity | Santek EZ Sign 2.9 inch four color | Exact physical unit metadata still needed |
-| Chip marking | User reports FMSC and 419J0G or 419JOG | Photo and exact silicon identification pending |
-| Protocol | Independent EZ Sign implementation documents Type A, ISO 14443 part 4 and proprietary APDUs | Verify against our physical label and recover our own prior findings |
-| Reader choice | PN5180 and ST25R3916B candidates | Compare software support, RF control and PA integration |
-| Electrical target | Historical six sheet RevA0 concept available | Amplifier and selector are not completed circuits |
-| KiCad | Not started in this repository | Implement native projects after circuit review |
-| Firmware | Not implemented in this repository | Establish reader transport and label profile |
-| Prototype and range | Not measured | Full refresh coverage mapping required |
-| Manufacturing | Not released | Circuit, BOM, ERC and DRC gates pending |
+| Area | Current evidence | Next gate |
+| --- | --- | --- |
+| Vendor writer | Static extraction found PC/SC, LZO and three command literals in the NFC payload. The 1.2.6 archive uses a serial application. [Evidence and hashes](research/VENDOR-PAYLOAD.md) | Capture an actual transaction on this unit |
+| Reader and host | PN5180A0HN/C4E and 3.3 V host harness. A Linux SPI probe reads product, firmware and EEPROM version words. | Run on a Pi and an actual reader |
+| Controller | Ten KiCad sheets, BOM and 162 placed footprints. KiCad ERC passes. Preliminary board has 441 unrouted connections. | Prove isolation sequencing and usable RX level before routing |
+| Antenna | Routed 150 × 150 mm PCB. ERC, DRC and board-to-schematic parity pass. | Measure loop impedance and retune with actual coax, ferrite and metalwork |
+| Label bench | PC/SC commands enforce physical ID, geometry and raster size before transfer. The journal distinguishes transfer, refresh and camera evidence. | Capture identity, completion and a camera image on the same label |
+| Supply and integration | Raspberry Pi likely, ESP32 possible. Supply is adaptable. Panel size confirmed. | Measure installed cable, clearance, orientation, dwell and power |
+| Release | Electrical review files only | Controller routing, procurement and land-pattern review, component stress measurements, cavity coverage and build approval remain open |
 
-Chris reports that Santek software was previously reverse engineered to develop our own writer. That work is project history, but the completed implementation and captures have not yet been located in the sources accessible during initialization. The older Liberty-Chris/Balto main code is a simulation scaffold and must not be used to deny the existence of later research.
-
-The initial documentation package described the exact air protocol as unknown. Later research located an independent implementation for the actual EZ Sign product family. Current protocol documentation supersedes that broad uncertainty while preserving the distinction between external evidence and validation on our unit.
+An actual label refresh, maximum range, transferable operating power and an approved fabrication package remain outstanding.
