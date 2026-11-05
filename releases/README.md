@@ -1,5 +1,3 @@
-# Release records
+# Prototype releases
 
-No fabrication or validated operating release exists. Historical A0 material is under hardware/reference/RevA0 and is not a manufacturing package.
-
-A prototype release needs native project sources, reviewed schematic, exact BOM, footprint review, ERC and DRC results, assembly information, Gerbers and drills. State any provisional tuning components. A validated operating release additionally needs a measured operating envelope and actual display verification.
+[Rev A2 JLCPCB submission](RevA2/) contains separate controller and panel jobs, assembly inputs and exact-source validation. Physical commissioning and range evidence are tracked in the [acceptance procedure](../docs/validation/COMMISSION_A2.md).

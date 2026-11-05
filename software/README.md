@@ -19,3 +19,6 @@ Replace the sample ID with the observed unit's C1. The raster must be 9,472 devi
 The JSONL records attempted and acknowledged blocks, uncertain acknowledgements, refresh acceptance and completion. If status is lost after issuing refresh, the tool holds the session for the rest of its 90-second observation window and records uncertainty. The PC/SC reader and driver own RF continuity and ISO-DEP WTX/chaining. Scope the field. Associate an independently captured photo and its hash with the journal and raster hash. Physical records may contain unit identifiers and should stay outside version control.
 
 Use `python software/panel_match.py --help` for the installed-panel model. The [engineering record](../docs/validation/REV_A1.md) includes reproducible examples and assumptions.
+
+
+A refresh succeeds after a busy observation, the 30-second minimum field hold and three consecutive half-second idle polls. Any new busy resets that count. A lost response or an unobserved start leaves refresh unknown. The 30-second hold is a bench policy pending timing data on the physical label. Keep camera confirmation separate.

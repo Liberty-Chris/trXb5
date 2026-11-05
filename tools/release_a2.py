@@ -2,7 +2,6 @@
 import argparse
 import csv
 import hashlib
-import io
 import json
 import math
 from pathlib import Path
@@ -35,7 +34,8 @@ def write_rows(path, fields, rows):
         writer.writerows(rows)
 
 def inputs():
-    paths = [PARTS, Path("tools/release_a2.py"), Path("software/requirements-bench.txt")]
+    paths = [PARTS, Path("tools/release_a2.py"), Path("tools/check_a2_pinmap.py"),
+             Path("tools/inspect_a2_cam.py"), Path("software/requirements-bench.txt")]
     paths.extend(Path("software").glob("*.py"))
     paths.extend(Path("firmware").rglob("*.py"))
     paths.extend(Path("tests").rglob("*.py"))
@@ -121,12 +121,21 @@ def build(cli, revision):
         run("pcb","export","drill","--format","excellon","--excellon-separate-th","--excellon-units","mm","-o",fab,pcb)
         run("sch","export","pdf","-o",target / f"{tag}-schematic.pdf",sch)
         run("pcb","export","pdf","--mode-single","--layers","F.Fab,F.Silkscreen,Edge.Cuts","--exclude-value",
-            "--sketch-DNP-footprints-on-fab-layers","--scale","1","-o",assembly / f"{tag}-assembly.pdf",pcb)
+            "--black-and-white","--sketch-pads-on-fab-layers","--sketch-DNP-footprints-on-fab-layers",
+            "--scale","0","-o",assembly / f"{tag}-assembly.pdf",pcb)
         with tempfile.TemporaryDirectory() as tmp:
             pos = Path(tmp) / "positions.csv"
             run("pcb","export","pos","--format","csv","--units","mm","--side","front","--exclude-dnp","-o",pos,pcb)
             runs[-1]["command"][-2] = "<temp>/positions.csv"
             create_assembly(base,tag,assembly,pos)
+            if board == "controller":
+                netlist = Path(tmp)/"controller.xml"
+                run("sch","export","netlist","--format","kicadxml","-o",netlist,sch)
+                runs[-1]["command"][-2] = "<temp>/controller.xml"
+                audit=subprocess.run([sys.executable,"tools/check_a2_pinmap.py",netlist],
+                                     text=True,capture_output=True,check=True)
+                (CHECKS/"pin-audit.txt").write_text(audit.stdout,encoding="utf-8")
+                runs.append({"command":["python","tools/check_a2_pinmap.py","<temp>/controller.xml"],"exit":audit.returncode})
         files = sorted(fab.iterdir())
         expected = {tag+"-"+layer.replace(".","_")+".gbr" for layer in layers}
         # Different KiCad layer aliases can be used for silk. Check by layer function in CAM too.
@@ -144,7 +153,10 @@ def build(cli, revision):
     (CHECKS / "offline-tests.txt").write_text(result.stdout + result.stderr, encoding="utf-8")
     runs.append({"command":["python","-m","unittest","discover","-s","tests","-v"],"exit":result.returncode})
     result.check_returncode()
-    write_json(CHECKS / "commands.json", {"source":source,"kicad":version,"bench_dependencies":versions,"runs":runs})
+    cam = subprocess.run([sys.executable,"tools/inspect_a2_cam.py","--report",str(CHECKS/"cam.json")],check=True)
+    runs.append({"command":["python","tools/inspect_a2_cam.py","--report",(CHECKS/"cam.json").as_posix()],"exit":cam.returncode})
+    write_json(CHECKS / "commands.json", {"source":source,"kicad":version,"bench_dependencies":versions,
+                                         "gerbonara":package_version("gerbonara"),"runs":runs})
     if inputs()!=hashes:raise ValueError("Export changed source files")
     artifacts = {p.as_posix():digest(p.read_bytes()) for d in [OUT,CHECKS] for p in sorted(d.rglob("*"))
                  if p.is_file() and p != OUT/"manifest.json"}

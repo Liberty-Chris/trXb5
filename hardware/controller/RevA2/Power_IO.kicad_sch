@@ -190,4 +190,10 @@
 (hierarchical_label "ARM" (shape bidirectional) (at 22.86 82.55 0) (effects (font (size 1 1)) (justify left) ) (uuid b188d75c-394a-5d13-8da2-50e103fbb2aa))
 (wire (pts (xy 22.86 82.55) (xy 53.34 82.55)) (stroke (width 0) (type default)) (uuid 848a207c-b1db-509a-b9ef-766c831bf17d))
 (label "ARM" (at 53.34 82.55 180) (effects (font (size 1 1)) (justify right bottom) ) (uuid dde5d424-06e4-550a-a427-9aacef02943d))
+
+(symbol (lib_id "A1:R") (at 80.01 153.67 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid b542242e-386a-5aa0-91e0-e24046c4ec05) (property "Reference" "R106" (at 80.01 148.082 0) (effects (font (size 1.1 1.1))  ))(property "Value" "33.2 R" (at 80.01 149.9235 0) (effects (font (size 1.02 1.02))  ))(property "Footprint" "A1:R2512" (at 80.01 153.67 0) (effects (font (size 1.1 1.1))  (hide yes)))(property "MPN" "CRCW251233R2FKEG" (at 80.01 153.67 0) (effects (font (size 1.1 1.1))  (hide yes))) (instances (project "Controller_A2" (path "/06d67247-721f-582f-9d70-ae39d9cb4c6b/9aa04ca5-12ad-5711-8b1b-1260ab5a3aef" (reference "R106") (unit 1)))))
+(wire (pts (xy 73.66 153.67) (xy 60.96 153.67)) (stroke (width 0) (type default)) (uuid b60ded62-11a1-5303-a7cb-c90a5b108247))
+(label "RF_3V3" (at 60.96 153.67 0) (effects (font (size 1 1)) (justify left bottom) ) (uuid 3223eac9-ac0f-5e2e-85d5-2e0eceba64c6))
+(wire (pts (xy 86.36 153.67) (xy 99.06 153.67)) (stroke (width 0) (type default)) (uuid 88e56de2-a885-5a54-906c-153535656511))
+(label "GND" (at 99.06 153.67 180) (effects (font (size 1 1)) (justify right bottom) ) (uuid e6937e76-44d4-5ff9-a517-28d1a679fe5e))
 )
