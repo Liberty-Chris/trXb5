@@ -19,6 +19,7 @@ Rev A3 provides a factory-populated [controller](hardware/controller/RevA3/Contr
 | [KiCad handoff](docs/KICAD_HANDOFF.md) | Desktop implementation instructions |
 | [Development plan](docs/ROADMAP.md) | Stages and release criteria |
 | [Bench validation](docs/validation/PLAN.md) | Electrical and full refresh testing |
+| [Rev A3 pre-fabrication range analysis](docs/analysis/rev-a3-range/) | Direct and amplified link budgets, conditional refresh distances and the reference-reader test |
 | [Decision log](docs/decisions/DECISIONS.md) | Accepted targets and pending decisions |
 | [Original A0 package](hardware/reference/RevA0/START_HERE.md) | Historical schematic baseline with correction notice |
 | [Original schematic PDF](hardware/reference/RevA0/ROACH_NFC_RevA0_Schematic.pdf) | Six preliminary review sheets |
