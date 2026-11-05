@@ -1,0 +1,7 @@
+# Panel A3 order
+
+Quote ten bare boards and populate all ten. Select JLCPCB Standard PCBA, top-side SMT plus through-hole assembly. Use a 150 × 150 mm single board, two layers, FR-4, 1.6 mm thickness, 1 oz copper per side, ENIG finish, green solder mask and white legend. Permit removable rails outside the finished outline. Use flying-probe testing with the etched loop conductor preserved.
+
+Keep the loop covered by solder mask and the aperture clear. The four mounting holes are 3.20 mm NPTH, centered 12 mm from the nearest edges. The SMA has a 1.50 mm plated center hole and four 1.70 mm plated ground holes. Leave these lead holes open for insertion. The panel requires no filled vias. Use a 0.15 mm top stencil for the Voltronics lands, as recommended on drawing V-70513, with the supplied paste apertures. Inspect the two accessible rotor ends before reflow.
+
+The factory fits J401 by through-hole wave/selective soldering, four 500 V fixed C0G capacitors, the two JZ400HV adjustable capacitors and R401 by SMT. C405 is populated at 39 pF. The rotor/identification marks face pad 2 on both trimmers. Keep space above the trimmers for an insulated tool and above the SMA for the mating coax. Apply cable strain relief outside the aperture. Use the inner Gerber ZIP for fabrication and include all eight designators in component matching. [Panel engineering and placement evidence](../../../docs/validation/REV_A3.md)

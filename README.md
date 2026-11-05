@@ -4,7 +4,7 @@ Custom 13.56 MHz NFC reader and writer with one primary loop and four optional e
 
 The system identifies a batteryless electronic paper label, transfers an image, maintains power through display refresh and reports verification evidence to the vending platform. Camera verification establishes the visible result.
 
-Rev A2 provides a routed [controller](hardware/controller/RevA2/Controller_A2.kicad_pro), a [150 mm panel](hardware/antenna/RevA2/Panel_A2.kicad_pro) and separate [JLCPCB prototype packages](releases/RevA2/). Both boards pass ERC, DRC and schematic parity. Begin with the [electrical limits](docs/validation/REV_A2.md) and [close-range commissioning procedure](docs/validation/COMMISSION_A2.md).
+Rev A3 provides a factory-populated [controller](hardware/controller/RevA3/Controller_A3.kicad_pro) and [150 mm panel](hardware/antenna/RevA3/Panel_A3.kicad_pro). The [JLCPCB submissions](releases/RevA3/) include the SMT and through-hole components. Start with the [sourcing and electrical review](docs/validation/REV_A3.md) and [physical commissioning procedure](docs/validation/COMMISSION_A3.md).
 
 ## Start here
 
