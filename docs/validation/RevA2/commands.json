@@ -1,0 +1,350 @@
+{
+  "bench_dependencies": {
+    "lzokay": "2.1.0",
+    "pyscard": "2.3.2"
+  },
+  "gerbonara": "1.6.3",
+  "kicad": "10.0.8",
+  "runs": [
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs\\validation\\RevA2\\Controller_A2-erc.json",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs\\validation\\RevA2\\Controller_A2-erc.rpt",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs\\validation\\RevA2\\Controller_A2-drc.json",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs\\validation\\RevA2\\Controller_A2-drc.rpt",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "gerbers",
+        "--layers",
+        "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+        "--no-protel-ext",
+        "-o",
+        "releases\\RevA2\\controller\\fabrication",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "drill",
+        "--format",
+        "excellon",
+        "--excellon-separate-th",
+        "--excellon-units",
+        "mm",
+        "-o",
+        "releases\\RevA2\\controller\\fabrication",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "pdf",
+        "-o",
+        "releases\\RevA2\\controller\\Controller_A2-schematic.pdf",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pdf",
+        "--mode-single",
+        "--layers",
+        "F.Fab,F.Silkscreen,Edge.Cuts",
+        "--exclude-value",
+        "--black-and-white",
+        "--sketch-pads-on-fab-layers",
+        "--sketch-DNP-footprints-on-fab-layers",
+        "--scale",
+        "0",
+        "-o",
+        "releases\\RevA2\\controller\\assembly\\Controller_A2-assembly.pdf",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pos",
+        "--format",
+        "csv",
+        "--units",
+        "mm",
+        "--side",
+        "front",
+        "--exclude-dnp",
+        "-o",
+        "<temp>/positions.csv",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "<temp>/controller.xml",
+        "hardware\\controller\\RevA2\\Controller_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_a2_pinmap.py",
+        "<temp>/controller.xml"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs\\validation\\RevA2\\Panel_A2-erc.json",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs\\validation\\RevA2\\Panel_A2-erc.rpt",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs\\validation\\RevA2\\Panel_A2-drc.json",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs\\validation\\RevA2\\Panel_A2-drc.rpt",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "gerbers",
+        "--layers",
+        "F.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+        "--no-protel-ext",
+        "-o",
+        "releases\\RevA2\\panel\\fabrication",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "drill",
+        "--format",
+        "excellon",
+        "--excellon-separate-th",
+        "--excellon-units",
+        "mm",
+        "-o",
+        "releases\\RevA2\\panel\\fabrication",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "pdf",
+        "-o",
+        "releases\\RevA2\\panel\\Panel_A2-schematic.pdf",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pdf",
+        "--mode-single",
+        "--layers",
+        "F.Fab,F.Silkscreen,Edge.Cuts",
+        "--exclude-value",
+        "--black-and-white",
+        "--sketch-pads-on-fab-layers",
+        "--sketch-DNP-footprints-on-fab-layers",
+        "--scale",
+        "0",
+        "-o",
+        "releases\\RevA2\\panel\\assembly\\Panel_A2-assembly.pdf",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pos",
+        "--format",
+        "csv",
+        "--units",
+        "mm",
+        "--side",
+        "front",
+        "--exclude-dnp",
+        "-o",
+        "<temp>/positions.csv",
+        "hardware\\antenna\\RevA2\\Panel_A2.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "python",
+        "tools/inspect_a2_cam.py",
+        "--report",
+        "docs/validation/RevA2/cam.json"
+      ],
+      "exit": 0
+    }
+  ],
+  "source": "fd7c5a7c87c2778b41f44c522338c36d3ec9b35b"
+}
