@@ -60,7 +60,8 @@ def image_commands(raw):
 
 
 def run_job(exchange, record, frames=None, device_id=None, geometry=None, sleep=time.sleep,
-            monotonic=time.monotonic, refresh_seconds=90, authenticate_for_info=False):
+            monotonic=time.monotonic, refresh_seconds=90, authenticate_for_info=False,
+            minimum_field_seconds=30):
     exchange(SELECT)
     if authenticate_for_info:
         exchange(AUTH)
@@ -88,15 +89,31 @@ def run_job(exchange, record, frames=None, device_id=None, geometry=None, sleep=
     try:
         exchange(REFRESH)
         record("refresh", "accepted")
+        earliest_idle = monotonic() + minimum_field_seconds
+        observed_busy = False
+        idle_polls = 0
         while monotonic() < deadline:
-            sleep(.5)
+            sleep(min(.5, max(0, deadline - monotonic())))
+            if monotonic() >= deadline:
+                break
             status = exchange(POLL)
-            if status == b"\x00":
-                record("refresh", "complete")
-                return
-            if status != b"\x01":
+            if monotonic() >= deadline:
+                break
+            if status == b"\x01":
+                if not observed_busy:
+                    record("refresh", "busy_observed")
+                observed_busy = True
+                idle_polls = 0
+            elif status == b"\x00":
+                if observed_busy and monotonic() >= earliest_idle:
+                    idle_polls += 1
+                    if idle_polls == 3:
+                        record("refresh", "complete")
+                        return
+            else:
                 raise BenchError("Unknown refresh status "+status.hex())
-        raise BenchError("Refresh status timed out")
+        reason = "stable idle" if observed_busy else "busy transition"
+        raise BenchError(f"Refresh timed out waiting for {reason}")
     except (Exception, KeyboardInterrupt):
         # Hold the same exclusive PC/SC session for the remainder of the observation window.
         # Only external field instrumentation can confirm physical RF continuity.

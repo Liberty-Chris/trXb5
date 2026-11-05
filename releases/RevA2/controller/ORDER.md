@@ -1,0 +1,15 @@
+# Controller A2 order
+
+| Option | Selection |
+| --- | --- |
+| Board | Single rectangular 160 × 112 mm board, 4-layer FR-4, nominal 1.6 mm, green mask, white top legend, lead-free ENIG |
+| Stack | JLC04161H-7628, outer 1 oz finished copper, inner 0.5 oz. F.Cu RF and local circuitry, In1.Cu continuous ground reference, In2.Cu signals and power/ground fill, B.Cu signals and ground |
+| RF impedance | Select controlled impedance, single-ended 50 Ω ±10% for 0.36 mm outer RF feeds referenced to In1.Cu. Confirm the selected stack on the engineering drawing. Retain narrow component escape traces as drawn. No copper balancing changes in the RF region |
+| Drills | Import separate metric PTH and NPTH files. Four unplated 3.2 mm M3 holes at 5 mm edge offsets. Open all connector, header, optocoupler and radial lead holes |
+| Via covering | Select **epoxy filled and copper capped via-in-pad**. Planarize both faces. Apply to every 0.20 and 0.30 mm plated hole, including footprint-defined thermal holes in exposed pads. All component lead holes are 0.80 mm and larger. The CAM report gives counts by drill diameter |
+| Assembly | Standard PCBA, **top only**. Permit removable process rails and tooling outside the finished outline. Flying-probe test. No serialization on pads, RF feeds or SMA lands |
+| Stencil | Laser-cut 0.10 mm stainless, top paste Gerber as supplied, no bottom stencil. Retain the DDA and DSG segmented apertures. Inspect filled lands before paste and X-ray U101, U201, U204 and U310–U314 after reflow |
+
+The 0.2104 mm outer prepreg and 0.035 mm outer copper give approximately 49 Ω for a 0.36 mm trace using an IPC-style microstrip estimate with relative permittivity 4.4. The estimate excludes solder mask and launch discontinuities. The order tolerance applies to representative feed geometry. Measure the assembled launches, RF bus and relay stubs with a VNA. [JLCPCB stack calculator](https://jlcpcb.com/impedance) · [Published stack example](https://jlcpcb.com/blog/pcb-esd-protection) · [Via process](https://jlcpcb.com/help/article/pcb-via-covering)
+
+Use [the complete BOM](assembly/Controller_A2-full-BOM.csv) for procurement. Reflow the [locally placed SMD parts](assembly/Controller_A2-manual-and-DNP.csv), including the five latching Omron relays and specified receiver/match passives. Hand fit SMA connectors, power and host headers, polarized C204/C218, and the DIP optocoupler. Keep the arm jumper off for initial power-up. Preorder the THS3491 and every other factory BOM line that lacks stock. Use the pin-one marks, diode bands, transformer dots, electrolytic polarity and numbered pad overlay on the [assembly drawing](assembly/Controller_A2-assembly.pdf) during the portal placement review. The placement table records the rotation adjustment for each matched catalogue footprint. [Sourcing and rotation audit](../../../hardware/RevA2-sourcing.csv) · [JLC placement rules](https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly) · [JLC orientation convention](https://jlcpcb.com/help/article/pcb-assembly-faqs-part-2)

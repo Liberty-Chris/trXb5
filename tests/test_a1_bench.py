@@ -54,21 +54,67 @@ class LabelTests(unittest.TestCase):
         with self.assertRaises(bench.BenchError):
             bench.image_commands(random.Random(39).randbytes(9472))
 
-    def test_refresh_ack_and_completion_are_distinct(self):
-        for reply, done in [(b"\x00",True),(b"\x02",False),(b"",False)]:
-            with self.subTest(reply=reply):
-                events = Mock()
-                exchange = Mock(side_effect=[b"", INFO, b"", b"", b"", reply])
-                fn = lambda: bench.run_job(exchange, events, [b"frame"], "12345678", (296,128),
-                                            sleep=lambda seconds: None)
-                if done:
-                    fn()
-                    events.assert_any_call("refresh","complete")
-                else:
-                    with self.assertRaises(bench.BenchError):
-                        fn()
-                    events.assert_any_call("refresh","unknown")
-                self.assertEqual(exchange.call_count, 6)
+    def check_refresh(self, replies, expected, *, deadline=5, minimum_field_seconds=0):
+        now = 0
+        states = []
+        polls = []
+
+        def sleep(seconds):
+            nonlocal now
+            now += seconds
+
+        remaining = iter(replies)
+
+        def exchange(apdu):
+            if apdu == bench.INFO:
+                return INFO
+            if apdu != bench.POLL:
+                return b""
+            polls.append(now)
+            reply = next(remaining, replies[-1])
+            if isinstance(reply, Exception):
+                raise reply
+            return reply
+
+        def run():
+            bench.run_job(exchange, lambda stage, state, **_: states.append((stage, state)),
+                          [b"frame"], "12345678", (296, 128), sleep=sleep,
+                          monotonic=lambda: now, refresh_seconds=deadline,
+                          minimum_field_seconds=minimum_field_seconds)
+
+        if expected == "complete":
+            run()
+        else:
+            with self.assertRaises((bench.BenchError, OSError)):
+                run()
+            self.assertGreaterEqual(now, deadline)
+            self.assertNotIn(("refresh", "complete"), states)
+        self.assertIn(("transfer", "acknowledged"), states)
+        self.assertIn(("refresh", "accepted"), states)
+        self.assertEqual(states[-1], ("refresh", expected))
+        return len(polls)
+
+    def test_first_idle_and_never_busy(self):
+        self.check_refresh([bytes([0])], "unknown")
+
+    def test_observed_busy_then_stable_idle(self):
+        self.assertEqual(self.check_refresh([bytes([x]) for x in (0, 1, 0, 0, 0)], "complete"), 5)
+
+    def test_transient_idle_restarts_qualification(self):
+        sequence = (1, 0, 0, 1, 0, 0, 0)
+        self.assertEqual(self.check_refresh([bytes([x]) for x in sequence], "complete"), 7)
+
+    def test_busy_or_premature_idle_at_timeout(self):
+        self.check_refresh([bytes([1]), bytes([0])], "unknown", deadline=5,
+                           minimum_field_seconds=30)
+        for replies in ([bytes([1])], [bytes([1]), bytes([0])]):
+            with self.subTest(replies=replies):
+                self.check_refresh(replies, "unknown", deadline=1.4)
+
+    def test_lost_or_invalid_poll_holds_field_window(self):
+        for failure in (OSError("reader removed"), bytes([2]), b""):
+            with self.subTest(failure=failure):
+                self.check_refresh([bytes([1]), failure], "unknown")
 
     def test_lost_transfer_ack_does_not_repeat_block(self):
         exchange = Mock(side_effect=[b"", INFO, b"", OSError("link lost")])

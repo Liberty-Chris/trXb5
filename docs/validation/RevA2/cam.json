@@ -1,0 +1,75 @@
+{
+  "controller": {
+    "copper_layers": [
+      "B_Cu",
+      "F_Cu",
+      "In1_Cu",
+      "In2_Cu"
+    ],
+    "drill_hits_by_diameter_mm": {
+      "NPTH": {
+        "3.200": 4
+      },
+      "PTH": {
+        "0.200": 200,
+        "0.300": 156,
+        "0.800": 8,
+        "0.890": 9,
+        "1.000": 31,
+        "1.700": 36
+      }
+    },
+    "objects_by_layer": {
+      "B_Cu": 1445,
+      "B_Mask": 88,
+      "B_Paste": 0,
+      "B_Silkscreen": 0,
+      "Edge_Cuts": 4,
+      "F_Cu": 2580,
+      "F_Mask": 666,
+      "F_Paste": 592,
+      "F_Silkscreen": 3242,
+      "In1_Cu": 441,
+      "In2_Cu": 1114
+    },
+    "outline_mm": [
+      160,
+      112
+    ]
+  },
+  "panel": {
+    "copper_layers": [
+      "B_Cu",
+      "F_Cu"
+    ],
+    "drill_hits_by_diameter_mm": {
+      "NPTH": {
+        "3.200": 4
+      },
+      "PTH": {
+        "0.890": 1,
+        "1.700": 4
+      }
+    },
+    "etched_loop": {
+      "copper_width_mm": 2.0,
+      "feed_gap_center_to_center_mm": 12.0,
+      "segments": 9
+    },
+    "objects_by_layer": {
+      "B_Cu": 9,
+      "B_Mask": 9,
+      "B_Paste": 0,
+      "B_Silkscreen": 0,
+      "Edge_Cuts": 4,
+      "F_Cu": 54,
+      "F_Mask": 23,
+      "F_Paste": 14,
+      "F_Silkscreen": 792
+    },
+    "outline_mm": [
+      150,
+      150
+    ]
+  }
+}

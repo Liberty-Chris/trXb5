@@ -1,0 +1,87 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-05T03:34:17",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b",
+            "violations": []
+        },
+        {
+            "path": "/Reader power and host isolation/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/9aa04ca5-12ad-5711-8b1b-1260ab5a3aef",
+            "violations": []
+        },
+        {
+            "path": "/PN5180 front end/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/bf99463a-e78f-517e-b527-b0527d3b3862",
+            "violations": []
+        },
+        {
+            "path": "/RF match and receiver pickup/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/59c9bca5-2b0b-5552-8f6c-b30d4b7b6989",
+            "violations": []
+        },
+        {
+            "path": "/Linear PA development path/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/9b801127-5fe1-5380-a623-07feab31ca16",
+            "violations": []
+        },
+        {
+            "path": "/Coil address and hardware permissives/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/4f904fad-5aec-5f21-b66c-3afa86ae1253",
+            "violations": []
+        },
+        {
+            "path": "/Primary and external ports 1-2/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/a956a329-b6b3-5e28-ba30-0ddd119d27a2",
+            "violations": []
+        },
+        {
+            "path": "/External ports 3-4/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/15add677-e5c1-5b47-ae3b-9c13f05d072b",
+            "violations": []
+        },
+        {
+            "path": "/Selector host interface/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/2ca45316-6431-5449-a713-64ca961f14f9",
+            "violations": []
+        },
+        {
+            "path": "/Unpowered reader isolation/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/8f0c488e-72f1-596a-89cf-bcde4a54832b",
+            "violations": []
+        },
+        {
+            "path": "/Supply and sequence qualification/",
+            "uuid_path": "/06d67247-721f-582f-9d70-ae39d9cb4c6b/55fef636-3a5b-5bc0-88b3-4296dcf83ff3",
+            "violations": []
+        }
+    ],
+    "source": "Controller_A2.kicad_sch"
+}

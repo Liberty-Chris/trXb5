@@ -1,0 +1,7 @@
+Designators,Qty,MPN,Value,Footprint,Population
+C405,1,,coarse / DNP,A1:C1206,DNP
+J401,1,132134-14,132134-14,A1:SMA,Hand solder
+C402,1,C1206C680J1GACTU,68 pF,A1:C1206,Local reflow - exact MPN
+C401,1,C1206C821J1GACTU,820 pF,A1:C1206,Local reflow - exact MPN
+R401,1,CRCW12062R20FKEA,2.2 R,A1:R1206,Local reflow - exact MPN
+L401,1,,etched 1 turn,A1:Loop140,PCB feature

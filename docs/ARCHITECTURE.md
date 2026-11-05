@@ -1,6 +1,6 @@
-# Rev A1 electrical architecture
+# Electrical architecture
 
-The PN5180 drives a differential EMC filter and matching network into T201. K200 connects its secondary to J201 while the controller is armed. A single J202 jack feeds the common RF bus. For direct commissioning, patch J201 to J202 and remove PA power. For amplified development, patch J201 to J210 and J211 to J202. Change cables with all sources off. The second K200 contact samples the bus after either patch, through T202 and matched paths back to RXP/RXN. See the [ten-sheet schematic](../hardware/controller/RevA1/Controller_A1.pdf).
+The PN5180 drives a differential EMC filter and matching network into T201. K200 connects its secondary to J201 while the controller is armed. A single J202 jack feeds the common RF bus. For direct commissioning, patch J201 to J202 and remove PA power. For amplified development, patch J201 to J210 and J211 to J202. Change cables with all sources off. The second K200 contact samples the bus after either patch, through T202 and matched paths back to RXP/RXN. See the [Rev A2 schematic](../releases/RevA2/controller/Controller_A2-schematic.pdf).
 
 Five latching relays connect one primary port and four optional SMA panels. Resetting a relay connects its port to a local 49.9 Ω load. The second contact reports its position. A resistor network and a window comparator permit reader power only when exactly one contact is set, the host requests RUN and the physical arm link is fitted. The selector decoder has a separate quiet-field inhibit. The host must check the actual port index before starting a job and hold that selection until refresh ends.
 
@@ -8,4 +8,4 @@ A normally open RF relay separates unpowered reader TX and RX paths from their c
 
 Each interchangeable 150 mm panel has a single etched loop, two capacitor banks and fixed Q damping. Coarse changes require soldering with RF off. The SMA carries RF and return. Cable transformation, nearby conductive walls and other panels can change the match and consume power. Tune each installed path and measure pickup on inactive panels. Record both close and distant full-image results.
 
-The starting values, component limits, hardware timing and acceptance tests are in the [Rev A1 engineering record](validation/REV_A1.md). The original RevA0 remains the historical starting point.
+Rev A2 uses supply-qualified reader and coil enables and a 24 V single-supply linear PA. The [electrical review](validation/REV_A2.md) records the RF envelope, discharge bounds and tuning assumptions. The [commissioning procedure](validation/COMMISSION_A2.md) defines the physical acceptance tests. The original RevA0 remains the historical starting point.

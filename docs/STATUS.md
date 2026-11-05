@@ -1,15 +1,7 @@
 # Current status
 
-**November 5, 2026. Rev A1 is ready for electrical review.** The next physical milestone is an identified 2.9-inch label on a direct reader, with its factory configuration preserved. Start with the [commissioning sequence and design limits](validation/REV_A1.md).
+**Rev A2 is ready for engineering prototype fabrication.** The routed controller and 150 mm panel each pass ERC and DRC with zero open connections and zero schematic mismatches. The two submission ZIPs, numbered assembly drawings, exact BOMs, CPLs and manual population lists are in the [release](../releases/RevA2/). [KiCad reports, commands and test evidence](validation/RevA2/)
 
-| Area | Current evidence | Next gate |
-| --- | --- | --- |
-| Vendor writer | Static extraction found PC/SC, LZO and three command literals in the NFC payload. The 1.2.6 archive uses a serial application. [Evidence and hashes](research/VENDOR-PAYLOAD.md) | Capture an actual transaction on this unit |
-| Reader and host | PN5180A0HN/C4E and 3.3 V host harness. A Linux SPI probe reads product, firmware and EEPROM version words. | Run on a Pi and an actual reader |
-| Controller | Ten KiCad sheets, BOM and 162 placed footprints. KiCad ERC passes. Preliminary board has 441 unrouted connections. | Prove isolation sequencing and usable RX level before routing |
-| Antenna | Routed 150 × 150 mm PCB. ERC, DRC and board-to-schematic parity pass. | Measure loop impedance and retune with actual coax, ferrite and metalwork |
-| Label bench | PC/SC commands enforce physical ID, geometry and raster size before transfer. The journal distinguishes transfer, refresh and camera evidence. | Capture identity, completion and a camera image on the same label |
-| Supply and integration | Raspberry Pi likely, ESP32 possible. Supply is adaptable. Panel size confirmed. | Measure installed cable, clearance, orientation, dwell and power |
-| Release | Electrical review files only | Controller routing, procurement and land-pattern review, component stress measurements, cavity coverage and build approval remain open |
+The controller supports one primary path, four optional SMA paths, and direct or 24 V PA commissioning. The host uses 3.3 V logic, with Raspberry Pi as the first integration target and ESP32 still an option. The PC/SC bench tool checks label identity, transfer acknowledgements and a qualified refresh status. The Pi tool reads PN5180 version registers. The recovered vendor software and its static evidence remain available for protocol comparison. [Vendor evidence](research/VENDOR-PAYLOAD.md)
 
-An actual label refresh, maximum range, transferable operating power and an approved fabrication package remain outstanding.
+The next milestone is one assembled controller and panel into a dummy load, followed by a factory-configuration-preserving, camera-confirmed close-range refresh. Supply-loss timing, RF output, receiver recovery, the custom SPI image transport, installed coax/cavity tuning and 305 mm coverage still require hardware. [Electrical decisions](validation/REV_A2.md) · [Acceptance sequence](validation/COMMISSION_A2.md)

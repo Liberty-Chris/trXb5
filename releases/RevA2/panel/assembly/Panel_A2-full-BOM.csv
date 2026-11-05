@@ -1,0 +1,9 @@
+Designators,Qty,Value,Footprint,Manufacturer,MPN,LCSC,Population
+C405,1,coarse / DNP,A1:C1206,,,,DNP
+J401,1,132134-14,A1:SMA,Amphenol RF,132134-14,,Hand solder
+C404,1,270 pF,A1:C1206,KEMET,C1206C271J1GACTU,C2172159,JLC SMT
+C402,1,68 pF,A1:C1206,KEMET,C1206C680J1GACTU,,Local reflow - exact MPN
+C401,1,820 pF,A1:C1206,KEMET,C1206C821J1GACTU,C19267566,Local reflow - exact MPN
+R401,1,2.2 R,A1:R1206,Vishay Intertech,CRCW12062R20FKEA,C844874,Local reflow - exact MPN
+C403 C406,2,4.5-20 pF,A1:JZ_HV,Knowles,JZ200HV,C3273347,JLC SMT - preorder exact MPN
+L401,1,etched 1 turn,A1:Loop140,,,,PCB feature
