@@ -1,0 +1,20 @@
+test_network_and_reference_planes (test_a1_bench.ElectricalTests.test_network_and_reference_planes) ... ok
+test_selector_refuses_missing_feedback_before_run (test_a1_bench.ElectricalTests.test_selector_refuses_missing_feedback_before_run) ... ok
+test_selector_verifies_contacts_and_releases_run_on_probe_failure (test_a1_bench.ElectricalTests.test_selector_verifies_contacts_and_releases_run_on_probe_failure) ... ok
+test_spi_transaction_is_read_only (test_a1_bench.ElectricalTests.test_spi_transaction_is_read_only) ... ok
+test_authenticated_info_does_not_write_image (test_a1_bench.LabelTests.test_authenticated_info_does_not_write_image) ... ok
+test_bad_info_and_torn_tlvs (test_a1_bench.LabelTests.test_bad_info_and_torn_tlvs) ... ok
+test_busy_or_premature_idle_at_timeout (test_a1_bench.LabelTests.test_busy_or_premature_idle_at_timeout) ... ok
+test_first_idle_and_never_busy (test_a1_bench.LabelTests.test_first_idle_and_never_busy) ... ok
+test_identify_never_authenticates (test_a1_bench.LabelTests.test_identify_never_authenticates) ... ok
+test_identity_gate_precedes_auth (test_a1_bench.LabelTests.test_identity_gate_precedes_auth) ... ok
+test_image_block_offsets_and_lzo (test_a1_bench.LabelTests.test_image_block_offsets_and_lzo) ... ok
+test_lost_or_invalid_poll_holds_field_window (test_a1_bench.LabelTests.test_lost_or_invalid_poll_holds_field_window) ... ok
+test_lost_transfer_ack_does_not_repeat_block (test_a1_bench.LabelTests.test_lost_transfer_ack_does_not_repeat_block) ... ok
+test_observed_busy_then_stable_idle (test_a1_bench.LabelTests.test_observed_busy_then_stable_idle) ... ok
+test_transient_idle_restarts_qualification (test_a1_bench.LabelTests.test_transient_idle_restarts_qualification) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.004s
+
+OK

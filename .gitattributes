@@ -4,3 +4,8 @@ docs/validation/RevA2/** -text
 hardware/controller/RevA2/** text eol=lf
 hardware/antenna/RevA2/** text eol=lf
 hardware/RevA2-sourcing.csv text eol=lf
+releases/RevA3/** -text
+docs/validation/RevA3/** -text
+hardware/controller/RevA3/** text eol=lf
+hardware/antenna/RevA3/** text eol=lf
+hardware/RevA3/** text eol=lf

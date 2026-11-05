@@ -1,0 +1,2106 @@
+{
+  "build_quantity": {
+    "controller": 2,
+    "panel": 10
+  },
+  "components": {
+    "C109218": {
+      "available": 181316,
+      "cad_revision": "0bbd5a31c6514a02a9b5875c69094cf8",
+      "can_presale": 181316,
+      "catalog_package": "SOD-323",
+      "catalog_stock": 183984,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "D101",
+            "D102",
+            "D103",
+            "D104"
+          ],
+          "fit": 8,
+          "reserve": 12
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Nexperia",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241025_Nexperia-BAS316-115_C109218.pdf",
+      "mpn": "BAS316,115",
+      "part_url": "https://jlcpcb.com/partdetail/Nexperia-BAS316115/C109218",
+      "placement": "SMT Assembly",
+      "query": "C109218",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:31.121743+00:00"
+    },
+    "C110920": {
+      "available": 61857,
+      "cad_revision": "4cde591c51104f5aa3b841fbbc8e11ca",
+      "can_presale": 61857,
+      "catalog_package": "SOT-23",
+      "catalog_stock": 61874,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "Q301"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "Nexperia",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241025_Nexperia-PMV16XNR_C110920.pdf",
+      "mpn": "PMV16XNR",
+      "part_url": "https://jlcpcb.com/partdetail/Nexperia-PMV16XNR/C110920",
+      "placement": "SMT Assembly",
+      "query": "C110920",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:33.305350+00:00"
+    },
+    "C131941": {
+      "available": 70358,
+      "cad_revision": "353ad428e73c4e3f9335822b7dbcb289",
+      "can_presale": 70358,
+      "catalog_package": "SOT-23-6",
+      "catalog_stock": 71316,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U2"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/tps22918",
+      "mpn": "TPS22918DBVR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TPS22918DBVR/C131941",
+      "placement": "SMT Assembly",
+      "query": "C131941",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:30.937396+00:00"
+    },
+    "C137327": {
+      "available": 30195,
+      "cad_revision": "c07042b8bfe74eee8e2a93b216ebad8a",
+      "can_presale": 30195,
+      "catalog_package": "1206",
+      "catalog_stock": 36562,
+      "jobs": {
+        "panel": {
+          "designators": [
+            "R401"
+          ],
+          "fit": 10,
+          "reserve": 10
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 10,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC1206FR-072R2L_C137327.pdf",
+      "mpn": "RC1206FR-072R2L",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC1206FR072R2L/C137327",
+      "placement": "SMT Assembly",
+      "query": "C137327",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:32.736970+00:00"
+    },
+    "C1526287": {
+      "available": 3700,
+      "cad_revision": "34133b8eb0bd485288b237104cd9b003",
+      "can_presale": 3700,
+      "catalog_package": "HVQFN-40(6x6)",
+      "catalog_stock": 3713,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U101"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "NXP Semicon",
+      "manufacturer_document": "https://www.nxp.com.cn/docs/en/data-sheet/PN5180A0XX_C3_C4.pdf",
+      "mpn": "PN5180A0HN/C3E",
+      "part_url": "https://jlcpcb.com/partdetail/NXPSemicon-PN5180A0HNC3E/C1526287",
+      "placement": "SMT Assembly",
+      "query": "C1526287",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:32.929689+00:00"
+    },
+    "C158012": {
+      "available": 593989,
+      "cad_revision": "b47eede057d049478edfdeacc5b9a4a3",
+      "can_presale": 593989,
+      "catalog_package": "Plugin,P=2.5mm",
+      "catalog_stock": 602524,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "J1"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 1,
+      "manufacturer": "JST",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B2B-XH-A-LF-SN_C158012.pdf",
+      "mpn": "B2B-XH-A(LF)(SN)",
+      "part_url": "https://jlcpcb.com/partdetail/JST-B2B_XH_A_LF_SN/C158012",
+      "placement": "Wave Soldering",
+      "query": "C158012",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:34.671721+00:00"
+    },
+    "C163383": {
+      "available": 4753,
+      "cad_revision": "c07042b8bfe74eee8e2a93b216ebad8a",
+      "can_presale": 4753,
+      "catalog_package": "1206",
+      "catalog_stock": 4789,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R210",
+            "R218"
+          ],
+          "fit": 4,
+          "reserve": 11
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 10,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC1206FR-0724R9L_C163383.pdf",
+      "mpn": "RC1206FR-0724R9L",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC1206FR0724R9L/C163383",
+      "placement": "SMT Assembly",
+      "query": "C163383",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:34.738477+00:00"
+    },
+    "C168673": {
+      "available": 7715,
+      "cad_revision": "64fa1ccefa124947b60c551311598231",
+      "can_presale": 7715,
+      "catalog_package": "Plugin,P=2.54mm",
+      "catalog_stock": 8048,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "J2"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "Amphenol ICC",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Amphenol-ICC-68000-102HLF_C168673.pdf",
+      "mpn": "68000-102HLF",
+      "part_url": "https://jlcpcb.com/partdetail/AmphenolICC-68000102HLF/C168673",
+      "placement": "Wave Soldering",
+      "query": "C168673",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:34.974737+00:00"
+    },
+    "C168677": {
+      "available": 12719,
+      "cad_revision": "4a1562736b4842d3b84eb9d3979fae7b",
+      "can_presale": 12719,
+      "catalog_package": "Plugin,P=2.54mm",
+      "catalog_stock": 12896,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "J209"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "Amphenol ICC",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Amphenol-ICC-68000-103HLF_C168677.pdf",
+      "mpn": "68000-103HLF",
+      "part_url": "https://jlcpcb.com/partdetail/AmphenolICC-68000103HLF/C168677",
+      "placement": "Wave Soldering",
+      "query": "C168677",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:35.548644+00:00"
+    },
+    "C17313": {
+      "available": 111612,
+      "cad_revision": "93961f2ebced4e02a575b85af66bbe8c",
+      "can_presale": 111612,
+      "catalog_package": "1812",
+      "catalog_stock": 112339,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "F1"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "BOURNS",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010331_BOURNS-MF-MSMF050-2_C17313.pdf",
+      "mpn": "MF-MSMF050-2",
+      "part_url": "https://jlcpcb.com/partdetail/BOURNS-MF_MSMF0502/C17313",
+      "placement": "SMT Assembly",
+      "query": "C17313",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:36.116453+00:00"
+    },
+    "C17505": {
+      "available": 3696,
+      "cad_revision": "f927d48016d24d67a672eae9a4665e8f",
+      "can_presale": 3696,
+      "catalog_package": "0805",
+      "catalog_stock": 3696,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R211"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1870T5E_C17505.pdf",
+      "mpn": "0805W8F1870T5E",
+      "part_url": "https://jlcpcb.com/partdetail/18193-0805W8F1870T5E/C17505",
+      "placement": "SMT Assembly",
+      "query": "C17505",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:35.941512+00:00"
+    },
+    "C17692434": {
+      "available": 17,
+      "cad_revision": "3317d3e4778746c8879c8ef2f1b9fda2",
+      "can_presale": 17,
+      "catalog_package": "DIP-4",
+      "catalog_stock": 17,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U202"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311161815_Vishay-Intertech-VO617A-4_C17692434.pdf",
+      "mpn": "VO617A-4",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-VO617A4/C17692434",
+      "placement": "Wave Soldering",
+      "query": "C17692434",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:36.449520+00:00"
+    },
+    "C179375": {
+      "available": 1045,
+      "cad_revision": "15daaa07252e46c7952efc496f7d70fc",
+      "can_presale": 1045,
+      "catalog_package": "SOD-123F",
+      "catalog_stock": 1074,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "D314"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "Nexperia",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407241027_Nexperia-BZT52H-B5V1-115_C179375.pdf",
+      "mpn": "BZT52H-B5V1,115",
+      "part_url": "https://jlcpcb.com/partdetail/Nexperia-BZT52H_B5V1115/C179375",
+      "placement": "SMT Assembly",
+      "query": "C179375",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:36.853983+00:00"
+    },
+    "C19166144": {
+      "available": 93,
+      "cad_revision": "4e6b07050f974fd59b1aa13a9228ff13",
+      "can_presale": 93,
+      "catalog_package": "SMD",
+      "catalog_stock": 93,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "K200"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Omron Electronics",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311151748_Omron-Electronics-G6K-2F-RF-DC5_C19166144.pdf",
+      "mpn": "G6K-2F-RF DC5",
+      "part_url": "https://jlcpcb.com/partdetail/OmronElectronics-G6K_2F_RFDC5/C19166144",
+      "placement": "SMT Assembly",
+      "query": "C19166144",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:37.038483+00:00"
+    },
+    "C19653": {
+      "available": 345,
+      "cad_revision": "353ad428e73c4e3f9335822b7dbcb289",
+      "can_presale": 345,
+      "catalog_package": "SOT-23-6",
+      "catalog_stock": 630,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U306"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/tps3808",
+      "mpn": "TPS3808G01DBVR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TPS3808G01DBVR/C19653",
+      "placement": "SMT Assembly",
+      "query": "C19653",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:37.333829+00:00"
+    },
+    "C20345936": {
+      "available": 38,
+      "cad_revision": "f47402b48e1c4b43b462100bb57012cf",
+      "can_presale": 38,
+      "catalog_package": "14-SOT-23-THIN",
+      "catalog_stock": 38,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U301"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/lit/ds/symlink/tlv9024-q1.pdf",
+      "mpn": "TLV9024QDYYRQ1",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV9024QDYYRQ1/C20345936",
+      "placement": "SMT Assembly",
+      "query": "C20345936",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:37.782577+00:00"
+    },
+    "C20417017": {
+      "available": 183,
+      "cad_revision": "222d7dbb557146b6a0b6ffbbd714bc09",
+      "can_presale": 183,
+      "catalog_package": "0805",
+      "catalog_stock": 183,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "L101",
+            "L102"
+          ],
+          "fit": 4,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "Coilcraft",
+      "manufacturer_document": "https://www.coilcraft.com/getmedia/84ef94c0-5a6c-458d-8226-7d5f05958420/0805ls.pdf",
+      "mpn": "0805LS-471XJLC",
+      "part_url": "https://jlcpcb.com/partdetail/Coilcraft-0805LS471XJLC/C20417017",
+      "placement": "SMT Assembly",
+      "query": "C20417017",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:37.912499+00:00"
+    },
+    "C2058649": {
+      "available": 95,
+      "cad_revision": "ccffadb81f1c4fbfb95b9fbd1d1eaf44",
+      "can_presale": 95,
+      "catalog_package": "Power-Pad-SO-8",
+      "catalog_stock": 111,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U201"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/ds/symlink/ths3491.pdf",
+      "mpn": "THS3491IDDAT",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-THS3491IDDAT/C2058649",
+      "placement": "SMT Assembly",
+      "query": "C2058649",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:38.208633+00:00"
+    },
+    "C2090651": {
+      "available": 1549,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 1549,
+      "catalog_package": "0603",
+      "catalog_stock": 1551,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R329"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW060397K6FKEA_C2090651.pdf",
+      "mpn": "CRCW060397K6FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060397K6FKEA/C2090651",
+      "placement": "SMT Assembly",
+      "query": "C2090651",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:38.782036+00:00"
+    },
+    "C2092005": {
+      "available": 6897,
+      "cad_revision": "f927d48016d24d67a672eae9a4665e8f",
+      "can_presale": 6897,
+      "catalog_package": "0805",
+      "catalog_stock": 6938,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R212"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 6,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW0805649RFKEA_C2092005.pdf",
+      "mpn": "CRCW0805649RFKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805649RFKEA/C2092005",
+      "placement": "SMT Assembly",
+      "query": "C2092005",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:38.894486+00:00"
+    },
+    "C2153173": {
+      "available": 3350,
+      "cad_revision": "4c4266066c8444cbb4995f90d2d8d189",
+      "can_presale": 3350,
+      "catalog_package": "SMD,10x6.5mm",
+      "catalog_stock": 3571,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "K301",
+            "K302",
+            "K303",
+            "K304",
+            "K305"
+          ],
+          "fit": 10,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Omron Electronics",
+      "manufacturer_document": "https://components.omron.com/sites/default/files/datasheet_pdf/K106-E1.pdf",
+      "mpn": "G6KU-2F-Y-TR DC5",
+      "part_url": "https://jlcpcb.com/partdetail/OmronElectronics-G6KU_2F_Y_TRDC5/C2153173",
+      "placement": "SMT Assembly",
+      "query": "C2153173",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:39.027474+00:00"
+    },
+    "C2167577": {
+      "available": 3210,
+      "cad_revision": "5692e0f7bea74445b8400c3de2eeb4d1",
+      "can_presale": 3210,
+      "catalog_package": "0805",
+      "catalog_stock": 3275,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C1",
+            "C102",
+            "C2"
+          ],
+          "fit": 6,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "KEMET",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEMET-C0805C225K4RACTU_C2167577.pdf",
+      "mpn": "C0805C225K4RACTU",
+      "part_url": "https://jlcpcb.com/partdetail/KEMET-C0805C225K4RACTU/C2167577",
+      "placement": "SMT Assembly",
+      "query": "C2167577",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:39.789516+00:00"
+    },
+    "C2167927": {
+      "available": 169,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 169,
+      "catalog_package": "1206",
+      "catalog_stock": 202,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C214",
+            "C215"
+          ],
+          "fit": 4,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "KEMET",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEMET-C1206C103J5GACTU_C2167927.pdf",
+      "mpn": "C1206C103J5GACTU",
+      "part_url": "https://jlcpcb.com/partdetail/KEMET-C1206C103J5GACTU/C2167927",
+      "placement": "SMT Assembly",
+      "query": "C2167927",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:39.833489+00:00"
+    },
+    "C2171372": {
+      "available": 1551,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 1551,
+      "catalog_package": "0603",
+      "catalog_stock": 1574,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C103",
+            "C310",
+            "C312"
+          ],
+          "fit": 6,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "KEMET",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEMET-C0603C474K4RACTU_C2171372.pdf",
+      "mpn": "C0603C474K4RACTU",
+      "part_url": "https://jlcpcb.com/partdetail/KEMET-C0603C474K4RACTU/C2171372",
+      "placement": "SMT Assembly",
+      "query": "C2171372",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:40.104764+00:00"
+    },
+    "C2181873": {
+      "available": 5665,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 5665,
+      "catalog_package": "0603",
+      "catalog_stock": 6100,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C101",
+            "C113",
+            "C114",
+            "C314"
+          ],
+          "fit": 8,
+          "reserve": 12
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 6,
+      "manufacturer": "KEMET",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_KEMET-C0603C102J5GACTU_C2181873.pdf",
+      "mpn": "C0603C102J5GACTU",
+      "part_url": "https://jlcpcb.com/partdetail/KEMET-C0603C102J5GACTU/C2181873",
+      "placement": "SMT Assembly",
+      "query": "C2181873",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:40.724731+00:00"
+    },
+    "C242145": {
+      "available": 122,
+      "cad_revision": "402abaa54f2346718827a710c0f1654c",
+      "can_presale": 122,
+      "catalog_package": "Plugin,D8xL11.5mm",
+      "catalog_stock": 123,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C204"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "PANASONIC",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-EEUFR1C471_C242145.pdf",
+      "mpn": "EEUFR1C471",
+      "part_url": "https://jlcpcb.com/partdetail/PANASONIC-EEUFR1C471/C242145",
+      "placement": "Wave Soldering",
+      "query": "C242145",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:40.770492+00:00"
+    },
+    "C2683432": {
+      "available": 170,
+      "cad_revision": "002d77c087f142bcbe6dda1084f94bc2",
+      "can_presale": 170,
+      "catalog_package": "SMD-6P,7.9x5.6mm",
+      "catalog_stock": 174,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "T201",
+            "T202"
+          ],
+          "fit": 4,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Mini-Circuits",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121841_Mini-Circuits-ADT1-1-_C2683432.pdf",
+      "mpn": "ADT1-1+",
+      "part_url": "https://jlcpcb.com/partdetail/MiniCircuits-ADT1_1/C2683432",
+      "placement": "SMT Assembly",
+      "query": "C2683432",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:41.040639+00:00"
+    },
+    "C2869909": {
+      "available": 382,
+      "cad_revision": "895451bacca64655b467ad7e13d38dd9",
+      "can_presale": 382,
+      "catalog_package": "TSSOP-16",
+      "catalog_stock": 386,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U302"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/sn74hcs238",
+      "mpn": "SN74HCS238PWR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74HCS238PWR/C2869909",
+      "placement": "SMT Assembly",
+      "query": "C2869909",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:41.702907+00:00"
+    },
+    "C2878538": {
+      "available": 3206,
+      "cad_revision": "1641500bab9240ec801195c5f231d48e",
+      "can_presale": 3206,
+      "catalog_package": "SOIC-16-300mil",
+      "catalog_stock": 3232,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U4",
+            "U5"
+          ],
+          "fit": 4,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/iso7763",
+      "mpn": "ISO7760FDWR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-ISO7760FDWR/C2878538",
+      "placement": "SMT Assembly",
+      "query": "C2878538",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:41.622000+00:00"
+    },
+    "C29777121": {
+      "available": 399,
+      "cad_revision": "dd48d0a8dc284a40972509b67ecca1c6",
+      "can_presale": 399,
+      "catalog_package": "SOT-23-5",
+      "catalog_stock": 404,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U203"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com.cn/cn/lit/ds/symlink/tlv9031.pdf?ts=1739152715340&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fproduct%252Fcn%252FTLV9031%252Fpart-details%252FTLV9031DBVR",
+      "mpn": "TLV9031DBVR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV9031DBVR/C29777121",
+      "placement": "SMT Assembly",
+      "query": "C29777121",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:41.946630+00:00"
+    },
+    "C3174425": {
+      "available": 1203,
+      "cad_revision": "397536826cd84752ab911980a96daaa7",
+      "can_presale": 1203,
+      "catalog_package": "Plugin",
+      "catalog_stock": 1213,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "J201",
+            "J202",
+            "J210",
+            "J211",
+            "J301",
+            "J302",
+            "J303",
+            "J304",
+            "J305"
+          ],
+          "fit": 18,
+          "reserve": 5
+        },
+        "panel": {
+          "designators": [
+            "J401"
+          ],
+          "fit": 10,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Amphenol ICC",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401291155_Amphenol-ICC-132134_C3174425.pdf",
+      "mpn": "132134",
+      "part_url": "https://jlcpcb.com/partdetail/AmphenolICC-132134/C3174425",
+      "placement": "Wave Soldering",
+      "query": "C3174425",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:42.549421+00:00"
+    },
+    "C326652": {
+      "available": 1914,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 1914,
+      "catalog_package": "1206",
+      "catalog_stock": 1915,
+      "jobs": {
+        "panel": {
+          "designators": [
+            "C402"
+          ],
+          "fit": 10,
+          "reserve": 8
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 8,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811061214_YAGEO-CC1206JRNPOBBN680_C326652.pdf",
+      "mpn": "CC1206JRNPOBBN680",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN680/C326652",
+      "placement": "SMT Assembly",
+      "query": "C326652",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:42.730703+00:00"
+    },
+    "C326958": {
+      "available": 1260,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 1260,
+      "catalog_package": "1206",
+      "catalog_stock": 1260,
+      "jobs": {
+        "panel": {
+          "designators": [
+            "C405"
+          ],
+          "fit": 10,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 4,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811141233_YAGEO-CC1206JRNPOBBN390_C326958.pdf",
+      "mpn": "CC1206JRNPOBBN390",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN390/C326958",
+      "placement": "SMT Assembly",
+      "query": "C326958",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:42.880496+00:00"
+    },
+    "C3273268": {
+      "available": 68,
+      "cad_revision": "b1c3f5b50f3b4a28bb7eda81baafadab",
+      "can_presale": 68,
+      "catalog_package": "SMD,4.5x3.2mm",
+      "catalog_stock": 78,
+      "jobs": {
+        "panel": {
+          "designators": [
+            "C403",
+            "C406"
+          ],
+          "fit": 20,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Knowles",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404031009_Knowles-JZ400HV_C3273268.pdf",
+      "mpn": "JZ400HV",
+      "part_url": "https://jlcpcb.com/partdetail/Knowles-JZ400HV/C3273268",
+      "placement": "SMT Assembly",
+      "query": "C3273268",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:43.546921+00:00"
+    },
+    "C3903622": {
+      "available": 1407,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 1407,
+      "catalog_package": "0603",
+      "catalog_stock": 1427,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C201",
+            "C202"
+          ],
+          "fit": 4,
+          "reserve": 16
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 6,
+      "manufacturer": "Murata Electronics",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308111806_Murata-Electronics-GRM1885C1H301GA01D_C3903622.pdf",
+      "mpn": "GRM1885C1H301GA01D",
+      "part_url": "https://jlcpcb.com/partdetail/4472154-GRM1885C1H301GA01D/C3903622",
+      "placement": "SMT Assembly",
+      "query": "C3903622",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:43.799215+00:00"
+    },
+    "C39159": {
+      "available": 71126,
+      "cad_revision": "1eb3a922f51a4bcaab7b5f8913a6e076",
+      "can_presale": 71126,
+      "catalog_package": "WSON-8-EP(2x2)",
+      "catalog_stock": 71983,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U204",
+            "U310",
+            "U311",
+            "U312",
+            "U313",
+            "U314"
+          ],
+          "fit": 12,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/drv8837",
+      "mpn": "DRV8837DSGR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-DRV8837DSGR/C39159",
+      "placement": "SMT Assembly",
+      "query": "C39159",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:43.791602+00:00"
+    },
+    "C404027": {
+      "available": 93951,
+      "cad_revision": "73cb46b1845a49d5be67c960adaa3ee7",
+      "can_presale": 93951,
+      "catalog_package": "SOT-23-5",
+      "catalog_stock": 95146,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U1"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 1,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/tlv755p",
+      "mpn": "TLV75533PDBVR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TLV75533PDBVR/C404027",
+      "placement": "SMT Assembly",
+      "query": "C404027",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:44.604572+00:00"
+    },
+    "C407950": {
+      "available": 775,
+      "cad_revision": "5b0db4b729734fc3a3103972315c69c9",
+      "can_presale": 775,
+      "catalog_package": "Plugin,D6.3xL11.2mm",
+      "catalog_stock": 798,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C218"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 1,
+      "manufacturer": "PANASONIC",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_PANASONIC-EEUFR1H470_C407950.pdf",
+      "mpn": "EEUFR1H470",
+      "part_url": "https://jlcpcb.com/partdetail/PANASONIC-EEUFR1H470/C407950",
+      "placement": "Wave Soldering",
+      "query": "C407950",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:44.707082+00:00"
+    },
+    "C41430990": {
+      "available": 4795,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 4795,
+      "catalog_package": "1206",
+      "catalog_stock": 5048,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C210",
+            "C211"
+          ],
+          "fit": 4,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "KEMET",
+      "manufacturer_document": "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf",
+      "mpn": "C1206C104K5RACTU",
+      "part_url": "https://jlcpcb.com/partdetail/KEMET-C1206C104K5RACTU/C41430990",
+      "placement": "SMT Assembly",
+      "query": "C41430990",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:44.723655+00:00"
+    },
+    "C426766": {
+      "available": 204079,
+      "cad_revision": "ebad5f76307e472aa3d3c9b318f02a11",
+      "can_presale": 204079,
+      "catalog_package": "SOD-123F",
+      "catalog_stock": 204108,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "D205",
+            "D310",
+            "D311",
+            "D312",
+            "D313",
+            "D315"
+          ],
+          "fit": 12,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "Nexperia",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Nexperia-BAS70H-115_C426766.pdf",
+      "mpn": "BAS70H,115",
+      "part_url": "https://jlcpcb.com/partdetail/Nexperia-BAS70H115/C426766",
+      "placement": "SMT Assembly",
+      "query": "C426766",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:45.505637+00:00"
+    },
+    "C43698": {
+      "available": 26037,
+      "cad_revision": "353ad428e73c4e3f9335822b7dbcb289",
+      "can_presale": 26037,
+      "catalog_package": "SOT-23-6",
+      "catalog_stock": 26133,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U303",
+            "U304",
+            "U305"
+          ],
+          "fit": 6,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/tps3808",
+      "mpn": "TPS3808G33DBVR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-TPS3808G33DBVR/C43698",
+      "placement": "SMT Assembly",
+      "query": "C43698",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:45.988220+00:00"
+    },
+    "C47460": {
+      "available": 30593,
+      "cad_revision": "5a29e09af5544e89b09ce7490df13dc0",
+      "can_presale": 30593,
+      "catalog_package": "SMA(DO-214AC)",
+      "catalog_stock": 30765,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "D1",
+            "D203",
+            "D204"
+          ],
+          "fit": 6,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810172212_Vishay-Intertech-SS14-E3-61T_C47460.pdf",
+      "mpn": "SS14-E3/61T",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-SS14_E361T/C47460",
+      "placement": "SMT Assembly",
+      "query": "C47460",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:45.724006+00:00"
+    },
+    "C492407": {
+      "available": 212629,
+      "cad_revision": "7f4bd6ab57c544e3bc2836b74e5339a2",
+      "can_presale": 212629,
+      "catalog_package": "Plugin,P=2.54mm",
+      "catalog_stock": 219265,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "J3",
+            "J4",
+            "J5"
+          ],
+          "fit": 6,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 2,
+      "loss_number": 0,
+      "manufacturer": "XFCN",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2003191006_XFCN-PZ254V-11-08P_C492407.pdf",
+      "mpn": "PZ254V-11-08P",
+      "part_url": "https://jlcpcb.com/partdetail/XFCN-PZ254V_1108P/C492407",
+      "placement": "Wave Soldering",
+      "query": "C492407",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:46.415897+00:00"
+    },
+    "C50254": {
+      "available": 354861,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 354861,
+      "catalog_package": "1206",
+      "catalog_stock": 425808,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C205",
+            "C212"
+          ],
+          "fit": 4,
+          "reserve": 8
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 8,
+      "manufacturer": "Samsung Electro-Mechanics",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31B225KBHNNNE_C50254.pdf",
+      "mpn": "CL31B225KBHNNNE",
+      "part_url": "https://jlcpcb.com/partdetail/51263-CL31B225KBHNNNE/C50254",
+      "placement": "SMT Assembly",
+      "query": "C50254",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:46.654045+00:00"
+    },
+    "C513629": {
+      "available": 2129,
+      "cad_revision": "ec7a0b8c3d264b97a53ba1335d8f6227",
+      "can_presale": 2129,
+      "catalog_package": "2512",
+      "catalog_stock": 2182,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R104",
+            "R105",
+            "R106"
+          ],
+          "fit": 6,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 4,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YAGEO-RC2512FK-0733RL_C513629.pdf",
+      "mpn": "RC2512FK-0733RL",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC2512FK0733RL/C513629",
+      "placement": "SMT Assembly",
+      "query": "C513629",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:47.027936+00:00"
+    },
+    "C5216457": {
+      "available": 290,
+      "cad_revision": "29e54f1963e246648ca794c2d16c5232",
+      "can_presale": 290,
+      "catalog_package": "SOIC-16",
+      "catalog_stock": 306,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "U3"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 0,
+      "loss_number": 0,
+      "manufacturer": "Texas Instruments",
+      "manufacturer_document": "https://www.ti.com/cn/lit/gpn/iso7763",
+      "mpn": "ISO7762FDWR",
+      "part_url": "https://jlcpcb.com/partdetail/TexasInstruments-ISO7762FDWR/C5216457",
+      "placement": "SMT Assembly",
+      "query": "C5216457",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:47.345293+00:00"
+    },
+    "C527307": {
+      "available": 2943,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 2943,
+      "catalog_package": "1206",
+      "catalog_stock": 2959,
+      "jobs": {
+        "panel": {
+          "designators": [
+            "C404"
+          ],
+          "fit": 10,
+          "reserve": 8
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 8,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2005141733_YAGEO-CC1206JRNPOBBN221_C527307.pdf",
+      "mpn": "CC1206JRNPOBBN221",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN221/C527307",
+      "placement": "SMT Assembly",
+      "query": "C527307",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:47.579507+00:00"
+    },
+    "C527310": {
+      "available": 3921,
+      "cad_revision": "7fca99471ac0443f9b61164a675fde7b",
+      "can_presale": 3921,
+      "catalog_package": "1206",
+      "catalog_stock": 3922,
+      "jobs": {
+        "panel": {
+          "designators": [
+            "C401"
+          ],
+          "fit": 10,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 4,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2005222142_YAGEO-CC1206JRNPOBBN821_C527310.pdf",
+      "mpn": "CC1206JRNPOBBN821",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-CC1206JRNPOBBN821/C527310",
+      "placement": "SMT Assembly",
+      "query": "C527310",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:48.039536+00:00"
+    },
+    "C710893": {
+      "available": 6415,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 6415,
+      "catalog_package": "0603",
+      "catalog_stock": 6722,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C203"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 8,
+      "manufacturer": "Murata Electronics",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2009181535_Murata-Electronics-GRM1885C1H161JA01D_C710893.pdf",
+      "mpn": "GRM1885C1H161JA01D",
+      "part_url": "https://jlcpcb.com/partdetail/749165-GRM1885C1H161JA01D/C710893",
+      "placement": "SMT Assembly",
+      "query": "C710893",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:48.320983+00:00"
+    },
+    "C71651": {
+      "available": 30141,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 30141,
+      "catalog_package": "0603",
+      "catalog_stock": 31754,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C109",
+            "C110"
+          ],
+          "fit": 4,
+          "reserve": 16
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Murata Electronics",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811122015_Murata-Electronics-GRM1885C1H150JA01D_C71651.pdf",
+      "mpn": "GRM1885C1H150JA01D",
+      "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM1885C1H150JA01D/C71651",
+      "placement": "SMT Assembly",
+      "query": "C71651",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:48.473510+00:00"
+    },
+    "C77055": {
+      "available": 151791,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 151791,
+      "catalog_package": "0603",
+      "catalog_stock": 335728,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C10",
+            "C104",
+            "C106",
+            "C107",
+            "C108",
+            "C11",
+            "C12",
+            "C13",
+            "C206",
+            "C3",
+            "C311",
+            "C313",
+            "C315",
+            "C316",
+            "C317",
+            "C318",
+            "C320",
+            "C321",
+            "C322",
+            "C323",
+            "C324",
+            "C325",
+            "C326",
+            "C327",
+            "C328",
+            "C329",
+            "C4"
+          ],
+          "fit": 54,
+          "reserve": 6
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 6,
+      "manufacturer": "Murata Electronics",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010301_Murata-Electronics-GRM188R71H104KA93D_C77055.pdf",
+      "mpn": "GRM188R71H104KA93D",
+      "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71H104KA93D/C77055",
+      "placement": "SMT Assembly",
+      "query": "C77055",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:49.095536+00:00"
+    },
+    "C844253": {
+      "available": 83,
+      "cad_revision": "ec7a0b8c3d264b97a53ba1335d8f6227",
+      "can_presale": 83,
+      "catalog_package": "2512",
+      "catalog_stock": 88,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R214",
+            "R340",
+            "R341",
+            "R342",
+            "R343",
+            "R344"
+          ],
+          "fit": 12,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210190530_Vishay-Intertech-CRCW251249R9FKEG_C844253.pdf",
+      "mpn": "CRCW251249R9FKEG",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW251249R9FKEG/C844253",
+      "placement": "SMT Assembly",
+      "query": "C844253",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:49.276841+00:00"
+    },
+    "C844733": {
+      "available": 8441,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 8441,
+      "catalog_package": "0603",
+      "catalog_stock": 8994,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R310"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW0603110KFKEA_C844733.pdf",
+      "mpn": "CRCW0603110KFKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603110KFKEA/C844733",
+      "placement": "SMT Assembly",
+      "query": "C844733",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:49.451020+00:00"
+    },
+    "C844737": {
+      "available": 84768,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 84768,
+      "catalog_package": "0603",
+      "catalog_stock": 85257,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R216"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121919_Vishay-Intertech-CRCW060312K0FKEA_C844737.pdf",
+      "mpn": "CRCW060312K0FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060312K0FKEA/C844737",
+      "placement": "SMT Assembly",
+      "query": "C844737",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:50.003412+00:00"
+    },
+    "C844757": {
+      "available": 249501,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 249501,
+      "catalog_package": "0603",
+      "catalog_stock": 251538,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R215"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW0603220RFKEA_C844757.pdf",
+      "mpn": "CRCW0603220RFKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603220RFKEA/C844757",
+      "placement": "SMT Assembly",
+      "query": "C844757",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:50.208018+00:00"
+    },
+    "C844770": {
+      "available": 29559,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 29559,
+      "catalog_package": "0603",
+      "catalog_stock": 29570,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R217"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW06032K70FKEA_C844770.pdf",
+      "mpn": "CRCW06032K70FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06032K70FKEA/C844770",
+      "placement": "SMT Assembly",
+      "query": "C844770",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:50.360209+00:00"
+    },
+    "C844775": {
+      "available": 59057,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 59057,
+      "catalog_package": "0603",
+      "catalog_stock": 59965,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R207",
+            "R312"
+          ],
+          "fit": 4,
+          "reserve": 16
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW060330K1FKEA_C844775.pdf",
+      "mpn": "CRCW060330K1FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060330K1FKEA/C844775",
+      "placement": "SMT Assembly",
+      "query": "C844775",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:50.898024+00:00"
+    },
+    "C844885": {
+      "available": 4102,
+      "cad_revision": "ec7a0b8c3d264b97a53ba1335d8f6227",
+      "can_presale": 4102,
+      "catalog_package": "2512",
+      "catalog_stock": 4135,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R219"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 2,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312181733_Vishay-Intertech-CRCW251210R0FKEG_C844885.pdf",
+      "mpn": "CRCW251210R0FKEG",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW251210R0FKEG/C844885",
+      "placement": "SMT Assembly",
+      "query": "C844885",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:51.194867+00:00"
+    },
+    "C844915": {
+      "available": 478992,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 478992,
+      "catalog_package": "0603",
+      "catalog_stock": 500037,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R102",
+            "R103"
+          ],
+          "fit": 4,
+          "reserve": 16
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121919_Vishay-Intertech-CRCW06030000Z0EA_C844915.pdf",
+      "mpn": "CRCW06030000Z0EA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06030000Z0EA/C844915",
+      "placement": "SMT Assembly",
+      "query": "C844915",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:51.257128+00:00"
+    },
+    "C844916": {
+      "available": 1021862,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 1021862,
+      "catalog_package": "0603",
+      "catalog_stock": 1033054,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R206",
+            "R316",
+            "R320",
+            "R324",
+            "R325"
+          ],
+          "fit": 10,
+          "reserve": 10
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121919_Vishay-Intertech-CRCW0603100KFKEA_C844916.pdf",
+      "mpn": "CRCW0603100KFKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603100KFKEA/C844916",
+      "placement": "SMT Assembly",
+      "query": "C844916",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:51.815412+00:00"
+    },
+    "C844918": {
+      "available": 1004641,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 1004641,
+      "catalog_package": "0603",
+      "catalog_stock": 1172328,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R101",
+            "R2",
+            "R208",
+            "R209",
+            "R3",
+            "R311",
+            "R313",
+            "R314",
+            "R315",
+            "R318",
+            "R319",
+            "R321",
+            "R322",
+            "R328",
+            "R330",
+            "R350",
+            "R351",
+            "R352",
+            "R353",
+            "R354"
+          ],
+          "fit": 40,
+          "reserve": 10
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121919_Vishay-Intertech-CRCW060310K0FKEA_C844918.pdf",
+      "mpn": "CRCW060310K0FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918",
+      "placement": "SMT Assembly",
+      "query": "C844918",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:52.103694+00:00"
+    },
+    "C844920": {
+      "available": 1095340,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 1095340,
+      "catalog_package": "0603",
+      "catalog_stock": 1108249,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R323",
+            "R327"
+          ],
+          "fit": 4,
+          "reserve": 16
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121910_Vishay-Intertech-CRCW06031K00FKEA_C844920.pdf",
+      "mpn": "CRCW06031K00FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06031K00FKEA/C844920",
+      "placement": "SMT Assembly",
+      "query": "C844920",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:52.368609+00:00"
+    },
+    "C844925": {
+      "available": 87143,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 87143,
+      "catalog_package": "0603",
+      "catalog_stock": 87531,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R326"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW06032K20FKEA_C844925.pdf",
+      "mpn": "CRCW06032K20FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06032K20FKEA/C844925",
+      "placement": "SMT Assembly",
+      "query": "C844925",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:52.754522+00:00"
+    },
+    "C844926": {
+      "available": 88862,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 88862,
+      "catalog_package": "0603",
+      "catalog_stock": 98467,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R201"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Vishay-Intertech-CRCW0603330RFKEA_C844926.pdf",
+      "mpn": "CRCW0603330RFKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603330RFKEA/C844926",
+      "placement": "SMT Assembly",
+      "query": "C844926",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:53.057779+00:00"
+    },
+    "C844929": {
+      "available": 89253,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 89253,
+      "catalog_package": "0603",
+      "catalog_stock": 91758,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R1",
+            "R10",
+            "R11",
+            "R12",
+            "R13",
+            "R14",
+            "R15",
+            "R4",
+            "R5"
+          ],
+          "fit": 18,
+          "reserve": 10
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Vishay-Intertech-CRCW060347K0FKEA_C844929.pdf",
+      "mpn": "CRCW060347K0FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060347K0FKEA/C844929",
+      "placement": "SMT Assembly",
+      "query": "C844929",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:53.297523+00:00"
+    },
+    "C844931": {
+      "available": 1094662,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 1094662,
+      "catalog_package": "0603",
+      "catalog_stock": 1099092,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R202",
+            "R203",
+            "R204"
+          ],
+          "fit": 6,
+          "reserve": 14
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW06034K70FKEA_C844931.pdf",
+      "mpn": "CRCW06034K70FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW06034K70FKEA/C844931",
+      "placement": "SMT Assembly",
+      "query": "C844931",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:53.709520+00:00"
+    },
+    "C844936": {
+      "available": 63301,
+      "cad_revision": "f927d48016d24d67a672eae9a4665e8f",
+      "can_presale": 63301,
+      "catalog_package": "0805",
+      "catalog_stock": 75965,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R213"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Vishay-Intertech-CRCW0805100RFKEA_C844936.pdf",
+      "mpn": "CRCW0805100RFKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805100RFKEA/C844936",
+      "placement": "SMT Assembly",
+      "query": "C844936",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:54.183352+00:00"
+    },
+    "C844942": {
+      "available": 96001,
+      "cad_revision": "c07042b8bfe74eee8e2a93b216ebad8a",
+      "can_presale": 96001,
+      "catalog_package": "1206",
+      "catalog_stock": 96356,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R220",
+            "R221"
+          ],
+          "fit": 4,
+          "reserve": 11
+        }
+      },
+      "least_patch_number": 15,
+      "loss_number": 10,
+      "manufacturer": "Vishay Intertech",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2011072137_Vishay-Intertech-CRCW12061K00FKEA_C844942.pdf",
+      "mpn": "CRCW12061K00FKEA",
+      "part_url": "https://jlcpcb.com/partdetail/VishayIntertech-CRCW12061K00FKEA/C844942",
+      "placement": "SMT Assembly",
+      "query": "C844942",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:54.201523+00:00"
+    },
+    "C85981": {
+      "available": 7292,
+      "cad_revision": "2bff08d7d81b4a44afc2c059465189cd",
+      "can_presale": 7292,
+      "catalog_package": "0603",
+      "catalog_stock": 7434,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C111",
+            "C112"
+          ],
+          "fit": 4,
+          "reserve": 16
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 10,
+      "manufacturer": "Murata Electronics",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM1885C1H680JA01D_C85981.pdf",
+      "mpn": "GRM1885C1H680JA01D",
+      "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM1885C1H680JA01D/C85981",
+      "placement": "SMT Assembly",
+      "query": "C85981",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:54.744671+00:00"
+    },
+    "C86038": {
+      "available": 17777,
+      "cad_revision": "5692e0f7bea74445b8400c3de2eeb4d1",
+      "can_presale": 17777,
+      "catalog_package": "0805",
+      "catalog_stock": 26347,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "C105"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 8,
+      "manufacturer": "Murata Electronics",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010301_Murata-Electronics-GRM21BR71A106KE51L_C86038.pdf",
+      "mpn": "GRM21BR71A106KE51L",
+      "part_url": "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71A106KE51L/C86038",
+      "placement": "SMT Assembly",
+      "query": "C86038",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:55.110054+00:00"
+    },
+    "C861538": {
+      "available": 16234,
+      "cad_revision": "8857c3f0c42c482aac59190fd8fc70c4",
+      "can_presale": 16234,
+      "catalog_package": "0603",
+      "catalog_stock": 16244,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R317"
+          ],
+          "fit": 2,
+          "reserve": 18
+        }
+      },
+      "least_patch_number": 20,
+      "loss_number": 8,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210190000_YAGEO-RT0603BRD076K81L_C861538.pdf",
+      "mpn": "RT0603BRD076K81L",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD076K81L/C861538",
+      "placement": "SMT Assembly",
+      "query": "C861538",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:55.102051+00:00"
+    },
+    "C878191": {
+      "available": 3494,
+      "cad_revision": "ec7a0b8c3d264b97a53ba1335d8f6227",
+      "can_presale": 3494,
+      "catalog_package": "2512",
+      "catalog_stock": 3498,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "R205"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 2,
+      "manufacturer": "YAGEO",
+      "manufacturer_document": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210201700_YAGEO-RC2512FK-076R8L_C878191.pdf",
+      "mpn": "RC2512FK-076R8L",
+      "part_url": "https://jlcpcb.com/partdetail/YAGEO-RC2512FK076R8L/C878191",
+      "placement": "SMT Assembly",
+      "query": "C878191",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:55.698032+00:00"
+    },
+    "C90919": {
+      "available": 1358,
+      "cad_revision": "0cdb227698ec409e8fbc43d5c87c6c7a",
+      "can_presale": 1358,
+      "catalog_package": "SMD3225-4P",
+      "catalog_stock": 1391,
+      "jobs": {
+        "controller": {
+          "designators": [
+            "Y101"
+          ],
+          "fit": 2,
+          "reserve": 5
+        }
+      },
+      "least_patch_number": 5,
+      "loss_number": 0,
+      "manufacturer": "TXC Corp",
+      "manufacturer_document": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TXC-Corp-7M27100009_C90919.pdf",
+      "mpn": "7M27100009",
+      "part_url": "https://jlcpcb.com/partdetail/TXCCorp-7M27100009/C90919",
+      "placement": "SMT Assembly",
+      "query": "C90919",
+      "route": "JLCPCB public stock",
+      "service": "Economic and Standard",
+      "verified_utc": "2026-11-05T22:19:56.108812+00:00"
+    }
+  },
+  "endpoint": "https://jlcpcb.com/api/overseas-pcb-order/v1/shoppingCart/smtGood/selectSmtComponentList/v2"
+}

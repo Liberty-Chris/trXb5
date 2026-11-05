@@ -1,0 +1,29 @@
+ERC report (2026-11-05T17:20:35, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+
+***** Sheet /Reader power and host isolation/
+
+***** Sheet /PN5180 front end/
+
+***** Sheet /RF match and receiver pickup/
+
+***** Sheet /Linear PA development path/
+
+***** Sheet /Coil address and hardware permissives/
+
+***** Sheet /Primary and external ports 1-2/
+
+***** Sheet /External ports 3-4/
+
+***** Sheet /Selector host interface/
+
+***** Sheet /Unpowered reader isolation/
+
+***** Sheet /Supply and sequence qualification/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - None

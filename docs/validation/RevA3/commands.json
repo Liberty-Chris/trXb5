@@ -1,0 +1,371 @@
+{
+  "dependencies": {
+    "gerbonara": "1.6.3",
+    "lzokay": "2.1.0",
+    "pyscard": "2.3.2"
+  },
+  "kicad": "10.0.8",
+  "python": "3.12.2",
+  "runs": [
+    {
+      "command": [
+        "KiCad-python",
+        "tools/audit_a3_placement.py",
+        "docs/validation/RevA3/placement.csv"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs/validation/RevA3/Controller_A3-erc.rpt",
+        "hardware/controller/RevA3/Controller_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs/validation/RevA3/Controller_A3-erc.json",
+        "hardware/controller/RevA3/Controller_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs/validation/RevA3/Controller_A3-drc.rpt",
+        "hardware/controller/RevA3/Controller_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs/validation/RevA3/Controller_A3-drc.json",
+        "hardware/controller/RevA3/Controller_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "gerbers",
+        "--layers",
+        "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+        "--no-protel-ext",
+        "-o",
+        "releases/RevA3/controller/fabrication",
+        "hardware/controller/RevA3/Controller_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "drill",
+        "--format",
+        "excellon",
+        "--excellon-separate-th",
+        "--excellon-units",
+        "mm",
+        "-o",
+        "releases/RevA3/controller/fabrication",
+        "hardware/controller/RevA3/Controller_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "pdf",
+        "-o",
+        "releases/RevA3/controller/Controller_A3-schematic.pdf",
+        "hardware/controller/RevA3/Controller_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pdf",
+        "--mode-single",
+        "--layers",
+        "F.Fab,F.Silkscreen,Edge.Cuts",
+        "--exclude-value",
+        "--black-and-white",
+        "--sketch-pads-on-fab-layers",
+        "--scale",
+        "0",
+        "-o",
+        "releases/RevA3/controller/assembly/Controller_A3-assembly.pdf",
+        "hardware/controller/RevA3/Controller_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pos",
+        "--format",
+        "csv",
+        "--units",
+        "mm",
+        "--side",
+        "front",
+        "--exclude-dnp",
+        "-o",
+        "<temp>/Controller_A3-positions.csv",
+        "hardware/controller/RevA3/Controller_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "<temp>/Controller_A3.xml",
+        "hardware/controller/RevA3/Controller_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_a3_pinmap.py",
+        "<temp>/Controller_A3.xml"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs/validation/RevA3/Panel_A3-erc.rpt",
+        "hardware/antenna/RevA3/Panel_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs/validation/RevA3/Panel_A3-erc.json",
+        "hardware/antenna/RevA3/Panel_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "report",
+        "-o",
+        "docs/validation/RevA3/Panel_A3-drc.rpt",
+        "hardware/antenna/RevA3/Panel_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--all-track-errors",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "docs/validation/RevA3/Panel_A3-drc.json",
+        "hardware/antenna/RevA3/Panel_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "gerbers",
+        "--layers",
+        "F.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+        "--no-protel-ext",
+        "-o",
+        "releases/RevA3/panel/fabrication",
+        "hardware/antenna/RevA3/Panel_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "drill",
+        "--format",
+        "excellon",
+        "--excellon-separate-th",
+        "--excellon-units",
+        "mm",
+        "-o",
+        "releases/RevA3/panel/fabrication",
+        "hardware/antenna/RevA3/Panel_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "pdf",
+        "-o",
+        "releases/RevA3/panel/Panel_A3-schematic.pdf",
+        "hardware/antenna/RevA3/Panel_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pdf",
+        "--mode-single",
+        "--layers",
+        "F.Fab,F.Silkscreen,Edge.Cuts",
+        "--exclude-value",
+        "--black-and-white",
+        "--sketch-pads-on-fab-layers",
+        "--scale",
+        "0",
+        "-o",
+        "releases/RevA3/panel/assembly/Panel_A3-assembly.pdf",
+        "hardware/antenna/RevA3/Panel_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "pos",
+        "--format",
+        "csv",
+        "--units",
+        "mm",
+        "--side",
+        "front",
+        "--exclude-dnp",
+        "-o",
+        "<temp>/Panel_A3-positions.csv",
+        "hardware/antenna/RevA3/Panel_A3.kicad_pcb"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "<temp>/Panel_A3.xml",
+        "hardware/antenna/RevA3/Panel_A3.kicad_sch"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "python",
+        "tools/inspect_a3_cam.py",
+        "--report",
+        "docs/validation/RevA3/cam.json"
+      ],
+      "exit": 0
+    }
+  ],
+  "source": "1c3d24eae38d962c571f17d69f5a6a13c1a7a93a"
+}
