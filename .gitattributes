@@ -1,0 +1,6 @@
+# The manifest hashes exact manufacturing outputs and CLI reports.
+releases/RevA2/** -text
+docs/validation/RevA2/** -text
+hardware/controller/RevA2/** text eol=lf
+hardware/antenna/RevA2/** text eol=lf
+hardware/RevA2-sourcing.csv text eol=lf
