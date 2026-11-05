@@ -7,7 +7,7 @@
 | R03 | Expose evidence for external camera verification of the visible image | Required |
 | R04 | One primary antenna plus up to four external antennas | Required |
 | R05 | Select one antenna at a time and retain selection throughout an update | Required |
-| R06 | Flat PCB loop panels with initial 150 × 150 mm outline | Prototype target |
+| R06 | Flat 150 × 150 mm PCB loop panels for interchangeable mounting locations | Owner confirmed November 5, 2026 |
 | R07 | SMA external connections and a disconnectable primary loop | Prototype target |
 | R08 | Coarse capacitor selection and fine RF trimmer adjustments on each panel | Required |
 | R09 | Adjustable RF drive and an external amplifier development path | Required development scope |
@@ -20,6 +20,6 @@
 
 The current label is nominally SE0290C1, 296 × 128 pixels and four colors. Validate the exact physical unit before fixing firmware parameters.
 
-Open mechanical and integration inputs are product orientation, product contents, product motion, allowable pause duration, antenna mounting clearances, actual cable runs, available supply and host connection. Do not invent those values. Four color refresh takes tens of seconds in referenced implementations, so motion and dwell time materially affect feasibility.
+The owner expects a Raspberry Pi host, with ESP32 as an option. Power can be adapted to the circuit. A1 uses a 5 V bench input and a separate split supply for PA characterization. Production supply capacity, cable runs, mounting clearance, product orientation, contents, motion and allowable pause duration remain open. Four-color refresh takes tens of seconds in referenced implementations, so motion and dwell time materially affect feasibility.
 
 Readback means identity and protocol response verification unless true image memory readback is demonstrated. Do not promise pixel readback support. Camera verification is the separate visible image check.

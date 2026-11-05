@@ -4,7 +4,7 @@ Custom 13.56 MHz NFC reader and writer with one primary loop and four optional e
 
 The system identifies a batteryless electronic paper label, transfers an image, maintains power through display refresh and reports verification evidence to the vending platform. Camera verification establishes the visible result.
 
-Development baseline established November 4, 2026. The project currently contains requirements, protocol research, a preliminary electrical target and a plan for native KiCad implementation. No native KiCad design, completed amplifier circuit, manufactured prototype or demonstrated extended range is included yet.
+Rev A1 is an electrical review build. Open the [controller project](hardware/controller/RevA1/Controller_A1.kicad_pro) or the [150 mm panel project](hardware/antenna/RevA1/Panel_A1.kicad_pro) in KiCad 10. The panel is routed. The controller has a ten-sheet schematic and an unrouted placement board. Start with the [review results and bench sequence](docs/validation/REV_A1.md).
 
 ## Start here
 
@@ -25,8 +25,8 @@ Development baseline established November 4, 2026. The project currently contain
 
 The starting geometry is a roughly 457 mm cube metal cavity and 150 × 150 mm PCB loop panels. A maximum antenna to label distance of roughly 305 mm is a development goal, not a proven operating range. Antenna dimensions and RF output power remain subject to engineering and testing.
 
-PN5180 and ST25R3916B are reader candidates. The original A0 target uses ST25R3916B; an independent implementation specifically supports EZ Sign through PN5180. Reader selection has not been finalized.
+The A1 reader is PN5180A0HN/C4E. Raspberry Pi is the probable host and the controller exposes 3.3 V SPI and GPIO for either a Pi or an ESP32 implementation. [Reader selection](docs/decisions/READER-A1.md)
 
 The current documents supersede outdated protocol uncertainty in the original A0 package. The package remains preserved as a historical target. Read its correction notice before implementation.
 
-No project license has been selected. External references retain their own licenses and are linked rather than copied. See [contribution guidance](CONTRIBUTING.md).
+The owner has yet to select a project license. Bundled KiCad footprints retain their [library terms](hardware/LIBRARY-NOTICES.md). See [contribution guidance](CONTRIBUTING.md).

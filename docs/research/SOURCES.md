@@ -16,6 +16,8 @@ Sources reviewed during project initialization on November 4, 2026. Links point 
 | S10 | https://www.st.com/resource/en/application_note/an5276-antenna-design-for-st25r391616b-st25r391717b-st25r3918-and-st25r392020b-devices-stmicroelectronics.pdf | Antenna design reference |
 | S11 | https://www.nxp.com/docs/en/application-note/AN13219.pdf | Metal loading and antenna matching |
 | S12 | https://github.com/Liberty-Chris/Balto | Historical project and vendor installer location |
+| S13 | [Balto original files](https://github.com/Liberty-Chris/Balto/tree/b37a8c54490d3e98c58753e27abee4e6a4fd31ce/original) | NFC and serial vendor payloads. [Static inspection and reproducible hashes](VENDOR-PAYLOAD.md) |
+| S14 | [PN5180 Rev 4.3](https://www.nxp.com/docs/en/data-sheet/PN5180A0XX_C3_C4.pdf) | A1 register protocol, pin map, RF input and supply limits |
 
 Reviewed Git blob SHA for S03: 3343e2189f6c859ad29d68f4b043a4950e615fbf. Reviewed S04 blob SHA: 971aab2c7828711f57bd90a3646f40458f801649. These are file blob identifiers, not repository commit identifiers.
 

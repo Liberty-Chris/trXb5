@@ -1,0 +1,2 @@
+pyscard==2.3.2
+lzokay==2.1.0

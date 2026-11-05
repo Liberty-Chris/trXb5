@@ -1,0 +1,5 @@
+# Footprint source and license
+
+The two A1.pretty directories include land patterns from the KiCad 9 official footprint libraries, copyright the KiCad library contributors. The copies use short project-local names and omit optional 3D model paths. Their outlines and pad geometries retain the upstream library license, Creative Commons Attribution-ShareAlike 4.0 with KiCad's electronic-design exception. The license concerns the copied library material. [KiCad license and exception](https://www.kicad.org/libraries/license/) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · [official footprint sources](https://gitlab.com/kicad/libraries/kicad-footprints)
+
+The local Loop140, JZ_HV and G6KU_RF patterns were drawn for A1. The loop is the PCB winding, JZ_HV follows Voltronics drawing V-70513 Rev C, and G6KU_RF follows the Omron K242-E1 standard 10.6 × 7.2 mm package, top view. The local symbols describe the selected parts. The owner has yet to select a license for new project material.

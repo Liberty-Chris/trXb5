@@ -1,10 +1,14 @@
 id,claim,evidence_level,source,limitation,next_action
-E01,One primary plus four external loops,User requirement,Conversation November 4 2026,No hardware implementation,Capture in schematic
-E02,150 by 150 mm loops,Provisional target,Conversation November 4 2026,Geometry not validated,Measure model
+E01,One primary plus four external loops,User requirement,Conversation November 4 2026,Rev A1 circuits captured; hardware untested,Measure installed inactive coupling
+E02,150 by 150 mm panels,Owner-confirmed requirement,E13 and Panel_A1.kicad_pcb,Physical clearance unknown,Measure installed fit
 E03,305 mm maximum writing distance,User goal,Conversation November 4 2026,Not demonstrated,Full refresh coverage tests
 E04,FMSC and 419J0G or 419JOG chip marking,User observation,Disassembled display report,No photograph or exact IC identity,Record board imagery
 E05,Type A and ISO 14443 part 4 for EZ Sign,External implementation documentation,S03 S04,Not yet tested on our unit,Verify physical label
 E06,PN5180 supports referenced EZ Sign implementation,External implementation documentation,S03,No extended range or PA validation,Reader assessment
-E07,ST25R3916B reader choice,Candidate only,Original A0 target,Not final,Compare PN5180
+E07,ST25R3916B reader choice,Historical A0 candidate,Original A0 target,PN5180 selected for A1,Retain as fallback for physical test
 E08,Prior Santek reverse engineering was performed,User reported project history,Conversation November 4 2026,Completed artifacts not located here,Recover artifacts
 E09,FM1280 may be relevant to FMSC marking,Research lead,S05 S06,Not identified silicon,Compare package and markings
+E10,Vendor NFC app uses Windows PC/SC and contains EZ Sign SELECT AUTH and GET INFO,Static vendor payload inspection,S13 and VENDOR-PAYLOAD.md,Commands and offsets recovered; order on our unit pending,Capture an actual transaction
+E11,Balto 1.2.6 archive contains a serial application,Static managed metadata,S13 and VENDOR-PAYLOAD.md,Separate host transport,Keep independent from NFC timing evidence
+E12,PN5180A0HN/C4E selected for A1,Engineering decision,../decisions/READER-A1.md,Custom-board label validation pending,Read versions then activate actual label
+E13,150 by 150 mm panel outline,Owner confirmation and native PCB,November 5 2026 and Panel_A1.kicad_pcb,Mounting clearance and coax unknown,Measure installed configuration

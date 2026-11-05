@@ -1,19 +1,11 @@
-# Electrical architecture
+# Rev A1 electrical architecture
 
-The controller contains a candidate NFC reader, host interface, protected supply, direct RF path, optional development PA path, receive feedback and five selectable antenna paths. The PA is an intended development feature, not a selected or proven circuit.
+The PN5180 drives a differential EMC filter and matching network into T201. K200 connects its secondary to J201 while the controller is armed. A single J202 jack feeds the common RF bus. For direct commissioning, patch J201 to J202 and remove PA power. For amplified development, patch J201 to J210 and J211 to J202. Change cables with all sources off. The second K200 contact samples the bus after either patch, through T202 and matched paths back to RXP/RXN. See the [ten-sheet schematic](../hardware/controller/RevA1/Controller_A1.pdf).
 
-The original A0 target uses ST25R3916B QFN32. PN5180 has an independent EZ Sign implementation and must be evaluated before freezing the reader. Its software compatibility evidence does not prove PA compatibility or extended range. Record the final choice in the decision log.
+Five latching relays connect one primary port and four optional SMA panels. Resetting a relay connects its port to a local 49.9 Ω load. The second contact reports its position. A resistor network and a window comparator permit reader power only when exactly one contact is set, the host requests RUN and the physical arm link is fitted. The selector decoder has a separate quiet-field inhibit. The host must check the actual port index before starting a job and hold that selection until refresh ends.
 
-For the current cable target, transform the reader output impedance to a nominal 50 ohm RF bus and match each panel to that interface. Raw reader outputs and raw loops are not inherently 50 ohms. Cable length, relay parasitics, connectors and installed loading belong in the model.
+A normally open RF relay separates unpowered reader TX and RX paths from their coax when idle. The coil receives an early qualified RUN signal and has a local hold-up supply. The reader receives delayed switched power. An optocoupler drives the PA power-down input from reader power. These circuits require a scope check across independent loss of controller, host and PA power. The hardware shares ground across the host connection.
 
-The selector concept uses five SPDT RF relay paths. Each antenna port selects the RF bus or a 50 ohm damping load. This is a proposed bench topology. Relay part numbers, lifetime, damping load dissipation and inactive loop coupling are unresolved. Remote loop interruption or damping might require separate control wiring and is not assumed to work through an SMA cable alone.
+Each interchangeable 150 mm panel has a single etched loop, two capacitor banks and fixed Q damping. Coarse changes require soldering with RF off. The SMA carries RF and return. Cable transformation, nearby conductive walls and other panels can change the match and consume power. Tune each installed path and measure pickup on inactive panels. Record both close and distant full-image results.
 
-The primary antenna is initially integrated or locally mounted with a disconnectable connection. External panels use SMA. Select only one port, with RF off during relay changes and settling. Do not scan antennas during an active image transfer or refresh.
-
-Each panel provides series and shunt capacitor adjustment and fixed selectable Q damping. Avoid resistive tuning pots. RF trimmer ranges and ratings follow actual RF stress. Nearby metal can create eddy current loss and detuning; ferrite backing and wall clearance are part of the installed antenna design.
-
-The ST AN5592 automatic tuning arrangement does not directly apply to its single ended coax cable topology. Use manual panel tuning for the baseline. Any remote automatic tuning requires a separate engineered design.
-
-PA design must preserve outgoing modulation and permit reception of label load modulation. A generic RF amplifier is insufficient without NFC validation. Receive feedback is sampled after the PA output path and requires engineered attenuation, carrier handling and protection. Direct and amplified output links must be mutually exclusive.
-
-A real hardware RF shutdown is required. ST25R3916B has no generic RF_ENABLE pin. Reader supply switching and I/O isolation are one possible approach, subject to power sequencing and no backpower validation. Host software alone is not the hardware interlock. Output power and component ratings remain unassigned until the circuit is engineered.
+The starting values, component limits, hardware timing and acceptance tests are in the [Rev A1 engineering record](validation/REV_A1.md). The original RevA0 remains the historical starting point.
