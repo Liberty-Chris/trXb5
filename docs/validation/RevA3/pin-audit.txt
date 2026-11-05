@@ -1,0 +1,1 @@
+Verified 298 numbered pins on 32 devices against exported connectivity.
