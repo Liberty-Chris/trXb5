@@ -1,0 +1,24 @@
+Reference,QFN32 pin,Function,Net,Note
+U101,1,VDD_IO,+3V3_IO,External logic supply
+U101,8,VDD,+5V_NFC,Same source as VDD_TX
+U101,10,VDD_TX,+5V_NFC,Do not separately vary reader TX supply
+U101,9,VDD_RF,VDD_DR_REG,Internal output
+U101,14,VDD_DR,VDD_DR_REG,Connect per DS13541
+U101,20,I2C_EN,GND,SPI mode
+U101,29,BSS,NFC_BSS_N,10k pullup
+U101,30,SCLK,SPI_SCLK,Host output
+U101,31,MOSI,SPI_MOSI,Host output
+U101,32,MISO,SPI_MISO,Host input
+U101,27,IRQ,NFC_IRQ,Host input
+U101,13,RFO1,RF_TX_RAW,To Z201 or PA input conditioning
+U101,22,RFI1,RX_SENSE,Through engineered attenuator and limiter
+U101,6,GROUND,GND,Pad 33 exposed pad
+U101,12,GROUND,GND,Pad 33 exposed pad
+U101,16,GROUND,GND,Pad 33 exposed pad
+U101,21,GROUND,GND,Pad 33 exposed pad
+U101,26,GROUND,GND,Pad 33 exposed pad
+U101,33,GROUND,GND,Pad 33 exposed pad
+U101,3,VDD_D,VDD_D,Decouple only; see sheet 2
+U101,7,VDD_A,VDD_A,Decouple only; see sheet 2
+U101,11,VDD_AM,VDD_AM,Decouple only; see sheet 2
+U101,24,AGDC,AGDC,Decouple only; see sheet 2

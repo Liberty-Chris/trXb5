@@ -1,0 +1,1 @@
+session_id,date,hardware_revision,firmware_commit,antenna_id,cable_type,cable_length_mm,ferrite,wall_clearance_mm,loop_L_uH,loop_R_ohm,resonance_MHz,series_C_pF,shunt_C_pF,damping_R_ohm,instrument,trace_path,notes

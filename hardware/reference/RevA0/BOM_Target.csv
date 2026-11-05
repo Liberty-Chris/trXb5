@@ -1,0 +1,14 @@
+Reference,Quantity,Description,Status,Selection requirement
+U101,1,ST25R3916B QFN32,Candidate only,Verify exact MPN and package against official datasheet
+Y101,1,27.12 MHz crystal,MPN TBD,CL and ESR per U101 requirements
+A201,1,NFC compatible RF PA,UNRESOLVED,"Architecture, supply, output power, bandwidth and RX feedback pending"
+K300..K304,5,RF rated SPDT relay,UNRESOLVED,50 ohm path selection and inactive port termination
+R300..R304,5,50 ohm RF damping load,UNRESOLVED,Power and parasitics set by actual induced power
+J301..J304,4,50 ohm SMA socket,MPN TBD,Connector mounting and RF current rating
+ANT0..ANT4,5,150 x 150 mm PCB magnetic loop,Prototype geometry,"Turns, trace, spacing and copper thickness TBD"
+CS401 / CP401,2,C0G/NP0 matching capacitor banks,Values TBD per panel,Coarse selection; include DNP footprints
+CT401 / CT402,2,RF trimmer capacitors,Range and rating TBD,One series fine trim and optional shunt trim per panel
+RQ401,1,RF damping resistor per panel,Value TBD,"Use fixed selectable resistor, no resistive pot"
+Z201 / Z202,2,RF matching and protected RX network,UNRESOLVED,Calculate with measured model and PA output limits
+J101,1,2 x 10 host interface,Proposed pinout,"3.3 V SPI and logical controls, not a standard Pi header"
+U102,1,Input protection and RF shutdown,UNRESOLVED,Include reader I/O isolation and no backpower behavior
