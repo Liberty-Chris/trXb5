@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore the 13.56 MHz square planar spiral NFC antenna for Bluejacket RX Vending Machines, with integrated PN5180 reader electronics and USB control.">
+<meta name="theme-color" content="#f0f5f7">
+<title>13.56 MHz Square Planar Spiral NFC Antenna | Bluejacket RX Vending Machines</title>
+<link rel="icon" href="./assets/roach-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="masthead">
+ <div class="brands" aria-label="Balto and ROACH">
+  <div class="brand balto"><img src="./assets/balto-logo.png" alt="Balto logo" width="56" height="49"><span>BALTO</span></div>
+  <span class="brand-divider" aria-hidden="true"></span>
+  <div class="brand roach"><img class="roach-icon" src="./assets/roach-icon.svg" alt="ROACH emblem" width="44" height="44"><img class="roach-wordmark" src="./assets/roach-wordmark.svg" alt="ROACH" width="130" height="24"></div>
+ </div>
+ <div class="project-label">13.56 MHz Square Planar Spiral NFC Antenna <span>For Bluejacket RX Vending Machines</span></div>
+</header>
+<aside id="controls" aria-label="Model controls">
+ <button id="toggle-controls" aria-label="Show or hide model controls">Viewer controls</button>
+ <div class="controls-body">
+  <h1>Square planar spiral NFC antenna</h1><p class="machine-name">For Bluejacket RX Vending Machines</p>
+  <p class="intro">The vending computer sends label updates over USB. The integrated reader uses the loop’s 13.56 MHz magnetic field to deliver energy and exchange data with the product’s NFC eink display in the pickup chamber.</p>
+  <dl class="specs"><div><dt>Groove pitch</dt><dd>1.7 mm</dd></div><div><dt>Wire diameter</dt><dd>1.02 mm</dd></div><div><dt>Spiral capacity</dt><dd>5 turns</dd></div></dl>
+  <div class="view-buttons"><button id="whole">Whole assembly</button><button id="detail">Electronics</button></div>
+  <label class="explode-label" for="explode">Exploded view</label><input id="explode" type="range" min="0" max="100" value="0" aria-label="Exploded view amount">
+  <h2>Show components</h2><div id="groups"></div>
+  <p class="gesture-help">Drag to rotate. Scroll or pinch to zoom. Right drag to pan.</p>
+  <a id="download" class="download">Download 3D model</a>
+  <details class="accuracy" open><summary>Components and operation</summary><p>The PN5180 reader generates the RF signal and receives the display’s replies through the same antenna.</p><p>The XIAO microcontroller connects the reader to the vending computer over USB and manages NFC communication over SPI.</p><p>The tuning network matches the reader to the wire loop. Adjustable capacitors provide fine tuning for the installed antenna.</p><p>The loop powers the label by inductive coupling while image data is transferred and the display refreshes. The system then uses camera verification to check the visible result before customer pickup.</p></details>
+  <p id="status" role="status" aria-live="polite">Loading the 3D assembly…</p><p id="error" role="alert"></p><button id="retry" hidden>Try again</button>
+ </div>
+</aside>
+<main><canvas id="view" aria-label="Interactive 3D model of the square planar spiral NFC antenna for Bluejacket RX Vending Machines"></canvas></main>
+<noscript><p class="no-js">Enable JavaScript to use the interactive 3D viewer.</p></noscript>
+<script type="module" src="./app.js"></script>
+</body></html>

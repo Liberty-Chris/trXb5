@@ -30,3 +30,8 @@ The A1 reader is PN5180A0HN/C4E. Raspberry Pi is the probable host and the contr
 The current documents supersede outdated protocol uncertainty in the original A0 package. The package remains preserved as a historical target. Read its correction notice before implementation.
 
 The owner has yet to select a project license. Bundled KiCad footprints retain their [library terms](hardware/LIBRARY-NOTICES.md). See [contribution guidance](CONTRIBUTING.md).
+
+## Interactive antenna model
+
+A separate wire loop mechanical prototype is available in the [Bluejacket RX antenna 3D viewer](web/nfc-viewer/). It shows the 1.7 mm groove pitch version with 1.02 mm wire, integrated housing and representative electronics. This is a mechanical visualization, not the Rev A3 PCB release or validated RF operation. [Hosting and model notes](docs/MECHANICAL_VIEWER.md)
+

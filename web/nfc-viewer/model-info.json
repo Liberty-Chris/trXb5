@@ -1,0 +1,9 @@
+{
+  "model_file": "assembly-1p7-5c78b9f5a251.glb.gz",
+  "sha256": "5c78b9f5a251a0fb3fbe1ed53feb23018b763b32abd92be5ffc7cbedff775701",
+  "uncompressed_bytes": 7312760,
+  "wire_diameter_mm": 1.02,
+  "groove_pitch_mm": 1.7,
+  "spiral_turns": 5,
+  "named_components": 224
+}

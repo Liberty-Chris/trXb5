@@ -1,0 +1,10 @@
+{
+  "javascript_syntax": true,
+  "gzip_decode_and_checksum": true,
+  "named_components": 224,
+  "webgl_buffers_uploaded_in_api_harness": 448,
+  "exploded_and_camera_controls": true,
+  "component_toggles": true,
+  "download_bytes": 7312760,
+  "real_browser_render_test": "Blocked by container socket permissions; harness does not validate GPU rendering or visual layout."
+}
